@@ -1,5 +1,7 @@
-# peach-design-guide-r
-Peach Design Guide 
+# PEACH UCLH Design Guide
+
+# Description
+This is the design guide for the UCLH Peach project.
 
 # Installation instructions:
 1. Change to project directory
