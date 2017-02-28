@@ -7,7 +7,7 @@ const modalInstance = (
       </Modal.Header>
 
       <Modal.Body>
-        One fine body...
+        Body of Modal Text...
       </Modal.Body>
 
       <Modal.Footer>

@@ -5,7 +5,7 @@ const tableInstance = (
         <th>#</th>
         <th>First Name</th>
         <th>Last Name</th>
-        <th>Username</th>
+        <th>Department Position</th>
       </tr>
     </thead>
     <tbody>
@@ -13,18 +13,18 @@ const tableInstance = (
         <td>1</td>
         <td>Mark</td>
         <td>Otto</td>
-        <td>@mdo</td>
+        <td>Consultant</td>
       </tr>
       <tr>
         <td>2</td>
         <td>Jacob</td>
         <td>Thornton</td>
-        <td>@fat</td>
+        <td>Lead Nurse</td>
       </tr>
       <tr>
-        <td>3</td>
-        <td colSpan="2">Larry the Bird</td>
-        <td>@twitter</td>
+        <td>Sarah</td>
+        <td>Kelly</td>
+        <td>Consultant</td>
       </tr>
     </tbody>
   </Table>

@@ -14,12 +14,12 @@ const Example = React.createClass({
   render() {
     const popover = (
       <Popover id="modal-popover" title="popover">
-        very popover. such engagement
+        popover text body
       </Popover>
     );
     const tooltip = (
       <Tooltip id="modal-tooltip">
-        wow.
+        tooltip text
       </Tooltip>
     );
 

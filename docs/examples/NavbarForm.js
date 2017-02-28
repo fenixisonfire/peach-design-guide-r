@@ -2,7 +2,7 @@ const navbarInstance = (
   <Navbar>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">Brand</a>
+        <a href="#">Peach Project</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

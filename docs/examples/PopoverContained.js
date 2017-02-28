@@ -13,7 +13,7 @@ class Example extends React.Component {
     return (
       <ButtonToolbar>
         <Button onClick={this.handleClick}>
-          Holy guacamole!
+          Popover
         </Button>
 
         <Overlay
@@ -24,7 +24,7 @@ class Example extends React.Component {
           containerPadding={20}
         >
           <Popover id="popover-contained" title="Popover bottom">
-            <strong>Holy guacamole!</strong> Check this info.
+            <strong>Popover text</strong> more popover text.
           </Popover>
         </Overlay>
       </ButtonToolbar>

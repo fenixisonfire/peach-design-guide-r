@@ -1,24 +1,24 @@
 const popoverClick = (
   <Popover id="popover-trigger-click" title="Popover bottom">
-    <strong>Holy guacamole!</strong> Check this info.
+    <strong>Popover trigger text</strong> more text.
   </Popover>
 );
 
 const popoverHoverFocus = (
   <Popover id="popover-trigger-hover-focus" title="Popover bottom">
-    <strong>Holy guacamole!</strong> Check this info.
+    <strong>Popover trigger text</strong> more text.
   </Popover>
 );
 
 const popoverFocus = (
   <Popover id="popover-trigger-focus" title="Popover bottom">
-    <strong>Holy guacamole!</strong> Check this info.
+    <strong>Popover trigger text</strong> more text.
   </Popover>
 );
 
 const popoverClickRootClose = (
   <Popover id="popover-trigger-click-root-close" title="Popover bottom">
-    <strong>Holy guacamole!</strong> Check this info.
+    <strong>Popover trigger text</strong> more text.
   </Popover>
 );
 

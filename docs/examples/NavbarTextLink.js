@@ -2,16 +2,16 @@ const navbarInstance = (
   <Navbar>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">Brand</a>
+        <a href="#">Peach Project</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
       <Navbar.Text>
-        Signed in as: <Navbar.Link href="#">Mark Otto</Navbar.Link>
+        Signed in as: <Navbar.Link href="#">Dr Michael Otto</Navbar.Link>
       </Navbar.Text>
       <Navbar.Text pullRight>
-        Have a great day!
+        SN:132 2342
       </Navbar.Text>
     </Navbar.Collapse>
   </Navbar>

@@ -7,7 +7,7 @@ ReactDOM.render((
       positionTop={50}
       title="Popover right"
     >
-      And here's some <strong>amazing</strong> content. It's very engaging. right?
+      some <strong>popover</strong> content-further text
     </Popover>
   </div>
 ), mountNode);

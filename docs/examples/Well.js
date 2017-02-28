@@ -1,5 +1,5 @@
 const wellInstance = (
-  <Well>Look I'm in a well!</Well>
+  <Well>Well text</Well>
 );
 
 ReactDOM.render(wellInstance, mountNode);

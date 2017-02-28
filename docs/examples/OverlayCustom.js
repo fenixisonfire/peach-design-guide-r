@@ -14,7 +14,7 @@ const CustomPopover = React.createClass({
           padding: 10,
         }}
       >
-        <strong>Holy guacamole!</strong> Check this info.
+        <strong>Over lay text</strong> further info.
       </div>
     );
   },
