@@ -13,7 +13,7 @@ export default function ButtonSection() {
       </h1>
 
       <h3><Anchor id="buttons-options">Options</Anchor></h3>
-      <p>Use any of the available button style types to quickly create a styled button. Just modify the <code>bsStyle</code> prop.</p>
+        <p>Use any of the available button style types to quickly create a styled button. Just modify the <code>bsStyle</code> prop.<br></br>The following buttons display what colour should be used for what purpose, according to PEACH design guidelines</p>
       <ReactPlayground codeText={Samples.ButtonTypes} />
       <div className="bs-callout bs-callout-warning">
         <h4>Button spacing</h4>

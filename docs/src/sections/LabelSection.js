@@ -16,7 +16,7 @@ export default function LabelSection() {
       <ReactPlayground codeText={Samples.Label} />
 
       <h3><Anchor id="labels-variations">Available variations</Anchor></h3>
-      <p>Add any of the below mentioned modifier classes to change the appearance of a label.</p>
+        <p>Add any of the below mentioned modifier classes to change the appearance of a label.<br></br> Again, the following examples show how colour should be incorporated, according to the PEACH design guidelines</p>
       <ReactPlayground codeText={Samples.LabelVariations} />
 
       <h3><Anchor id="label-props">Props</Anchor></h3>
