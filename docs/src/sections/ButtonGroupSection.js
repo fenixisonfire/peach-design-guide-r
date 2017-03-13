@@ -31,19 +31,19 @@ export default function ButtonGroupSection() {
       <ReactPlayground codeText={Samples.ButtonGroupNested} />
 
       <h3><Anchor id="btn-groups-vertical">Vertical variation</Anchor></h3>
-      <p>Make a set of buttons appear vertically stacked rather than horizontally. <strong
+      <p>Stack buttons on top of each other, rather than display horizontally. <strong
         className="text-danger">Split button dropdowns are not supported here.</strong></p>
-      <p>Just add <code>vertical</code> to the <code>{"<ButtonGroup />"}</code>.</p>
+      <p>Add <code>vertical</code> to the <code>{"<ButtonGroup />"}</code>.</p>
       <ReactPlayground codeText={Samples.ButtonGroupVertical} />
       <br />
-      <p>Moreover, you can have buttons be block level elements so they take the full width of their container, just add <code>block</code> to the <code>{"<ButtonGroup />"}</code>, in addition to the <code>vertical</code> you just added.</p>
+      <p> To make the buttons take the full width of their container, just add <code>block</code> to the <code>{"<ButtonGroup />"}</code>, in addition to the <code>vertical</code> you just added.</p>
       <ReactPlayground codeText={Samples.ButtonGroupBlock} />
 
       <h3><Anchor id="btn-groups-justified">Justified button groups</Anchor></h3>
       <p>Make a group of buttons stretch at equal sizes to span the entire width of its parent. Also works with button dropdowns within the button group.</p>
       <div className="bs-callout bs-callout-warning">
         <h4>Style issues</h4>
-        <p>There are some issues and workarounds required when using this property, please see <a href="http://getbootstrap.com/components/#btn-groups-justified">bootstrap&#8217;s button group docs</a> for more specifics.</p>
+        <p>Please see <a href="http://getbootstrap.com/components/#btn-groups-justified">bootstrap&#8217;s button group docs</a> if there are issues using this.</p>
       </div>
       <p>Just add <code>justified</code> to the <code>{"<ButtonGroup />"}</code>.</p>
       <ReactPlayground codeText={Samples.ButtonGroupJustified} />

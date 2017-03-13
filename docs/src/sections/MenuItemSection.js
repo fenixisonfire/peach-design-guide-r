@@ -12,8 +12,8 @@ export default function MenuItemSection() {
         <Anchor id="menu-items">Menu items</Anchor> <small>MenuItem</small>
       </h2>
 
-      <p>This component represents a menu item in a dropdown.</p>
-      <p>It supports the basic anchor properties <code>href</code>, <code>target</code>, <code>title</code>.</p>
+      <p>Add a menu item in a dropdown.</p>
+      <p>The following anchor properties are supported: <code>href</code>, <code>target</code>, <code>title</code>.</p>
       <p>
         It also supports different properties of the normal Bootstrap MenuItem.
       </p>

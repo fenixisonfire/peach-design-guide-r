@@ -17,16 +17,15 @@ export default function ButtonSection() {
       <ReactPlayground codeText={Samples.ButtonTypes} />
       <div className="bs-callout bs-callout-warning">
         <h4>Button spacing</h4>
-        <p>Because React doesn't output newlines between elements, buttons on the same line are displayed
-        flush against each other. To preserve the spacing between multiple inline buttons, wrap your
+        <p>React does not automatically create a newline between elements. Buttons on the same line are usually shown flush against one another. To preserve the spacing between multiple inline buttons, wrap your
         button group in <code>{"<ButtonToolbar />"}</code>.</p>
       </div>
 
       <h3><Anchor id="buttons-sizes">Sizes</Anchor></h3>
-      <p>Fancy larger or smaller buttons? Add <code>bsSize="large"</code>, <code>bsSize="small"</code>, or <code>bsSize="xsmall"</code> for additional sizes.</p>
+      <p>Change size of buttons, by adding <code>bsSize="large"</code>, <code>bsSize="small"</code>, or <code>bsSize="xsmall"</code> for additional sizes.</p>
       <ReactPlayground codeText={Samples.ButtonSizes} />
 
-      <p>Create block level buttons—those that span the full width of a parent— by adding the <code>block</code> prop.</p>
+      <p>Block level buttons span the full width of a parent— create them by adding the <code>block</code> prop.</p>
       <ReactPlayground codeText={Samples.ButtonBlock} />
 
       <h3><Anchor id="buttons-active">Active state</Anchor></h3>
@@ -34,21 +33,21 @@ export default function ButtonSection() {
       <ReactPlayground codeText={Samples.ButtonActive} />
 
       <h3><Anchor id="buttons-tags">Button tags</Anchor></h3>
-      <p>The DOM element tag is choosen automatically for you based on the props you supply. Passing
+      <p>The DOM element tag is choosen automatically for you based on the props you supply. For example, passing
         a <code>href</code> will result in the button using a <code>{"<a />"}</code> element otherwise
         a <code>{"<button />"}</code> element will be used.
       </p>
       <ReactPlayground codeText={Samples.ButtonTagTypes} />
 
       <h3><Anchor id="buttons-disabled">Disabled state</Anchor></h3>
-      <p>Make buttons look unclickable by fading them back 50%. To do this add the <code>disabled</code> attribute to buttons.</p>
+      <p>Upon disabling a button, show this by fading them back 50%. Add the <code>disabled</code> attribute to buttons.</p>
       <ReactPlayground codeText={Samples.ButtonDisabled} />
 
       <div className="bs-callout bs-callout-warning">
         <h4>Cross-Browser compatibility</h4>
         <p>
-          Because <code>{"<Button />"}</code> will render an <code>{'<a>'}</code> tag in certain situations.
-          Since anchor tags can't be <code>disabled</code>, the behavior is emulated as best it can be.
+           <code>{"<Button />"}</code> tags will render an <code>{'<a>'}</code> tag in certain situations.
+          As anchor tags can't be <code>disabled</code>, the behavior is emulated as best it can be.
           Specifically, <code>pointer-events: none;</code> style is added to the anchor to prevent focusing, which
           is only supported in newer browser versions.
         </p>
