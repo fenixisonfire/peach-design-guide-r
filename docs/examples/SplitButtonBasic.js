@@ -1,4 +1,5 @@
-const BUTTONS = ['Default', 'Primary', 'Success', 'Info', 'Warning', 'Danger'];
+const BUTTONS = ['Default', 'Primary', 'Success', 'Warning', 'Danger'];
+
 
 function renderDropdownButton(title, i) {
   return (

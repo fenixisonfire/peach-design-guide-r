@@ -13,7 +13,7 @@ export default function TooltipSection() {
       </h2>
 
       <p>
-        Tooltip component for a more stylish alternative to that anchor tag <code>title</code> attribute.
+        Tooltips should be used on PEACH sites to give hints to users with regard to inputting form info.
       </p>
       <ReactPlayground codeText={Samples.TooltipBasic} exampleClassName="tooltip-static"/>
 

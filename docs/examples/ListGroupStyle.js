@@ -1,9 +1,9 @@
 const listgroupInstance = (
   <ListGroup>
-    <ListGroupItem bsStyle="mandatory">Success</ListGroupItem>
-    <ListGroupItem bsStyle="information">Info</ListGroupItem>
+    <ListGroupItem bsStyle="primary">Mandatory</ListGroupItem>
+    <ListGroupItem bsStyle="success">Information</ListGroupItem>
     <ListGroupItem bsStyle="warning">Warning</ListGroupItem>
-    <ListGroupItem bsStyle="prohibited">Danger</ListGroupItem>
+    <ListGroupItem bsStyle="danger">Prohibited</ListGroupItem>
   </ListGroup>
 );
 

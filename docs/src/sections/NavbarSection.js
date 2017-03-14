@@ -12,7 +12,7 @@ export default function NavbarSection() {
         <Anchor id="navbars">Navbars</Anchor> <small>Navbar</small>
       </h2>
 
-      <p>Navbars are responsive meta components that serve as navigation headers for your application or site.</p>
+      <p>Navbars serve as navigation headers. For greater user experience and to avoiding excessive scrolling, PEACH sites must incorporate Navbars.</p>
       <p>
         They also support all the different Bootstrap classes as properties. Just camelCase
         the css class and remove navbar from it.
@@ -41,7 +41,7 @@ export default function NavbarSection() {
 
       <h3><Anchor id="navbars-mobile-friendly">Responsive Navbars</Anchor></h3>
       <p>
-        To have a mobile friendly Navbar, Add a <code>Navbar.Toggle</code> to your Header and wrap your
+        All PEACH sites should be useable across all devices. To create a responsive navbar, add a <code>Navbar.Toggle</code> to your Header and wrap your
         Navs in a <code>Navbar.Collapse</code> component. The <code>Navbar</code> will automatically wire
         the toggle and collapse together!
       </p>

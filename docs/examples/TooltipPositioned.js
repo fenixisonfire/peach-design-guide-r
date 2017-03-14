@@ -1,6 +1,6 @@
 
 const tooltip = (
-  <Tooltip id="tooltip"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
+  <Tooltip id="tooltip"><strong>Tooltip example</strong> Check this info.</Tooltip>
 );
 
 const positionerInstance = (

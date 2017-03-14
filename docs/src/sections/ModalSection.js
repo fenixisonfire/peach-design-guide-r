@@ -19,10 +19,9 @@ export default function ModalSection() {
       <h3><Anchor id="modals-live">Basic example</Anchor></h3>
       <p></p>
       <p>
-        A modal with header, body, and set of actions in the footer. Use <code>{"<Modal/>"}</code> in combination with other components to
-        show or hide your Modal. The <code>{"<Modal/>"}</code> Component comes with
-        a few convenient "sub components": <code>{"<Modal.Header/>"}</code>, <code>{"<Modal.Title/>"}</code>, <code>{"<Modal.Body/>"}</code>,
-        and <code>{"<Modal.Footer/>"}</code>, which you can use to build the Modal content.
+       PEACH encourages the use of modals over pop-ups for more professional looking sites. The <code>{"<Modal/>"}</code> Component is made
+        up of convenient "sub components": <code>{"<Modal.Header/>"}</code>, <code>{"<Modal.Title/>"}</code>, <code>{"<Modal.Body/>"}</code>,
+        and <code>{"<Modal.Footer/>"}</code>, which can be used to edit the Modal content.
       </p>
       <ReactPlayground codeText={Samples.Modal} />
       <div className="bs-callout bs-callout-info">

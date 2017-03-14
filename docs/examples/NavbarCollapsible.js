@@ -2,7 +2,7 @@ const navbarInstance = (
   <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">React-Bootstrap</a>
+        <a href="#">PEACH-Project</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

@@ -1,7 +1,10 @@
-const BUTTONS = ['Default', 'Primary', 'Success', 'Info', 'Warning', 'Danger', 'Link'];
+const BUTTONS = ['Default', 'Primary', 'Success', 'Warning', 'Danger', 'Link'];
 
 function renderDropdownButton(title, i) {
   return (
+
+
+
     <DropdownButton bsStyle={title.toLowerCase()} title={title} key={i} id={`dropdown-basic-${i}`}>
       <MenuItem eventKey="1">Action</MenuItem>
       <MenuItem eventKey="2">Another action</MenuItem>
