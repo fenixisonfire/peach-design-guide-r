@@ -14,7 +14,7 @@ export default function NavbarSection() {
 
       <p>Navbars serve as navigation headers. For greater user experience and to avoiding excessive scrolling, PEACH sites must incorporate Navbars.</p>
       <p>
-        They also support all the different Bootstrap classes as properties. Just camelCase
+        Navbars support all the different Bootstrap classes as properties. Just camelCase
         the css class and remove navbar from it.
       </p>
       <p>

@@ -235,7 +235,7 @@ const ComponentsPage = React.createClass({
                   <Anchor id="navigation">Navigation</Anchor>
                 </h1>
 
-                <p className="lead">React-Bootstrap offers a variety of responsive, accessible components for setting up navigation both across your website and within your pages.</p>
+                <p className="lead">Use the following components for navigation across PEACH sites</p>
               </div>
 
               {this.renderScrollSpy(sections.navs)}
@@ -343,37 +343,13 @@ const ComponentsPage = React.createClass({
               <CustomStylesSection />
 
               {this.renderScrollSpy(sections.missing)}
-              <div className="bs-docs-section">
-                <h1 className="page-header">
-                  <Anchor id="missing">Missing components</Anchor>
-                </h1>
 
-                <p className="lead">We've intentionally omitted a few components from React-Bootstrap. Don't worry, though &ndash; we cover what to do in this section.</p>
-              </div>
 
               {this.renderScrollSpy(sections.affix)}
-              <div className="bs-docs-section">
-                <h2 className="page-header">
-                  <Anchor id="affix">Affix</Anchor>
-                </h2>
 
-                <p>Use <a href="https://react-bootstrap.github.io/react-overlays/#affixes"><code>{'<AutoAffix>'}</code> or <code>{'<Affix>'}</code> from react-overlays</a>.</p>
-                <p>There isn't really any additional Bootstrap markup associated with affixes, so we didn't add a Bootstrap-specific affix class. The upstream ones already give you everything you need.</p>
-              </div>
 
               {this.renderScrollSpy(sections.scrollspy)}
-              <div className="bs-docs-section">
-                <h2 className="page-header">
-                  <Anchor id="scrollspy">Scrollspy</Anchor>
-                </h2>
 
-                <p>Setting up a scrollspy in idiomatic React requires wiring up a number of components across your entire page, both to handle elements scrolling in and to wire that up to the navigation. It's a poor fit for a component library, because it's not a standalone component.</p>
-                <p>
-                  To implement this functionality, use a library
-                  like <a href="http://brigade.github.io/react-waypoint/">React Waypoint</a> along with a bit of your own state management.
-                  You can check out how we implemented it on the side panel here by reading the <a href="https://github.com/react-bootstrap/react-bootstrap/blob/master/docs/src/ComponentsPage.js">docs source</a>.
-                </p>
-              </div>
             </div>
 
 

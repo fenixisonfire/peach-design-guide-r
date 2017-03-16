@@ -8,6 +8,8 @@ import Samples from '../Samples';
 export default function ButtonSection() {
   return (
     <div className="bs-docs-section">
+        <br></br>
+            <p><strong>N.B. This page is incomplete.</strong> As more PEACH components are developed, they will be added to the site.</p><br></br>
       <h1 className="page-header">
         <Anchor id="buttons">Buttons</Anchor> <small>Button</small>
       </h1>

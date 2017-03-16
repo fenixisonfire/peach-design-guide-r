@@ -26,7 +26,7 @@ export default function ListGroupSection() {
       <ReactPlayground codeText={Samples.ListGroupActive} />
 
       <h3><Anchor id="listgroup-styling-color">Styling by color</Anchor></h3>
-      <p>Set the <code>bsStyle</code> prop to style the item</p>
+      <p>Set the <code>bsStyle</code> prop to style the item. The following colours display how colours are to be used on PEACH sites.</p>
       <ReactPlayground codeText={Samples.ListGroupStyle} />
 
       <h3><Anchor id="listgroup-with-header">With header</Anchor></h3>
