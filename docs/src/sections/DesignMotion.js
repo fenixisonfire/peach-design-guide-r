@@ -9,7 +9,7 @@ export default function DesignMotionSection() {
   return (
     <div className="bs-docs-section">
       <h1 className="page-header">
-        <Anchor id="motion">Moition</Anchor>
+        <Anchor id="motion">Motion</Anchor>
       </h1>
 
         <h3><Anchor id="motion-key-principles">Key Principles</Anchor></h3>
