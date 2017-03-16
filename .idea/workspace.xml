@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293f7e3c-92b5-4800-aaa8-3617ed2b9deb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/src/sections/SVGs/img-clarity.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignLayout.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignLoading.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignLoading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignLocalization.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignLocalization.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignMotion.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignMotion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignLoading.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLoading.js">
+      <file leaf-file-name="DesignMarkupAndStyle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-514">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="581">
+              <caret line="77" column="339" lean-forward="false" selection-start-line="77" selection-start-column="339" selection-end-line="77" selection-end-column="339" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -73,11 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignLocalization.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLocalization.js">
+      <file leaf-file-name="DesignMotion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMotion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="133" column="64" lean-forward="false" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
+            <state relative-caret-position="536">
+              <caret line="72" column="44" lean-forward="false" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignVoiceAndTone.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="30" column="326" lean-forward="false" selection-start-line="30" selection-start-column="326" selection-end-line="30" selection-end-column="326" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -124,6 +132,9 @@
         <option value="$PROJECT_DIR$/docs/src/sections/DesignLoading.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignLocalization.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignMotion.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js" />
       </list>
     </option>
   </component>
@@ -334,12 +345,12 @@
       <workItem from="1489257788956" duration="5922000" />
       <workItem from="1489325822192" duration="593000" />
       <workItem from="1489597871501" duration="2858000" />
-      <workItem from="1489661792671" duration="5201000" />
+      <workItem from="1489661792671" duration="7250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16785000" />
+    <option name="totallyTimeSpent" value="18834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -394,36 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="182" lean-forward="false" selection-start-line="20" selection-start-column="182" selection-end-line="20" selection-end-column="182" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="150" column="186" lean-forward="false" selection-start-line="150" selection-start-column="186" selection-end-line="150" selection-end-column="186" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -617,6 +598,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="133" column="64" lean-forward="false" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="77" column="339" lean-forward="false" selection-start-line="77" selection-start-column="339" selection-end-line="77" selection-end-column="339" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMotion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="72" column="44" lean-forward="false" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="30" column="326" lean-forward="false" selection-start-line="30" selection-start-column="326" selection-end-line="30" selection-end-column="326" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
