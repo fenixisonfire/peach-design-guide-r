@@ -8,9 +8,9 @@ import Samples from '../Samples';
 export default function DesignDisplayingDataSection() {
   return (
     <div className="bs-docs-section">
-      <h1 className="page-header">
+      <h2 className="page-header">
         <Anchor id="displaydata">Displaying Data</Anchor>
-      </h1>
+      </h2>
 
       <h3><Anchor id="record-lists">Record Lists</Anchor></h3>
       <p>
