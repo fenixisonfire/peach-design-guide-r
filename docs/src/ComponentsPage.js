@@ -292,7 +292,7 @@ const ComponentsPage = React.createClass({
                   <Anchor id="media-content">Media content</Anchor>
                 </h1>
 
-                <p className="lead">The React-Bootstrap media content components offer ways to present images and other media to your users in a responsive way, along with support for styling those components.</p>
+                <p className="lead">These content components offer ways to present images and other media to your users in a responsive way, along with support for styling those components.</p>
               </div>
 
               {this.renderScrollSpy(sections.images)}
@@ -312,7 +312,7 @@ const ComponentsPage = React.createClass({
                   <Anchor id="misc">Miscellaneous components</Anchor>
                 </h1>
 
-                <p className="lead">React-Bootstrap also offers various standalone components that can be used to present specific, relevant kinds of information across your pages.</p>
+                <p className="lead">This section contains standalone PEACH components that are not listed under any other subheading.</p>
               </div>
 
               {this.renderScrollSpy(sections.icons)}
@@ -333,7 +333,7 @@ const ComponentsPage = React.createClass({
                   <Anchor id="utilities">Utilities</Anchor>
                 </h1>
 
-                <p className="lead">React-Bootstrap also exposes certain utility components used internally. They can be used to enhance your own custom components as well.</p>
+                <p className="lead">The following components can be used across PEACH sites to style content. They can also be used to enhance custom components.</p>
               </div>
 
               {this.renderScrollSpy(sections.transitions)}
@@ -427,10 +427,7 @@ const ComponentsPage = React.createClass({
                       <NavItem href={sections.customStyles}>Custom Styles</NavItem>
                     </SubNav>
 
-                    <SubNav href={sections.missing} text="Missing components">
-                      <NavItem href={sections.affix}>Affix</NavItem>
-                      <NavItem href={sections.scrollspy}>Scrollspy</NavItem>
-                    </SubNav>
+
                   </Nav>
 
                   <a className="back-to-top" href="#top">

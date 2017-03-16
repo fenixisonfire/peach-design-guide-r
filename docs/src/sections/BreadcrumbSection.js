@@ -12,8 +12,8 @@ export default function BreadcrumbSection() {
         <Anchor id="breadcrumbs">Breadcrumbs</Anchor> <small>Breadcrumb, Breadcrumb.Item</small>
       </h2>
 
-      <p>Breadcrumbs are used to indicate the current page's location. Add <code>active</code> attribute to active <code>Breadcrumb.
-          For PEACH applications, use breadcrumbs to allow for easier navigation in multi-step processes, such as  Item</code>.</p>
+      <p>Breadcrumbs are used to indicate the current page's location. Add <code>active</code> attribute to active <code>Breadcrumb</code>.
+          For PEACH applications, use breadcrumbs to allow for easier navigation in multi-step processes.</p>
       <p>Do not set both <code>active</code> and <code>href</code> attributes. <code>active</code> overrides <code>href</code> and <code>span</code> element is rendered instead of <code>a</code>.</p>
 
       <h3><Anchor id="breadcrumbs-example">Breadcrumbs Example</Anchor></h3>
