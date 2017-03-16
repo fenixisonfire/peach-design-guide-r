@@ -26,6 +26,7 @@ export default function DesignMotionSection() {
         </p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h3><Anchor id="motion-key-principles">Type of Animation</Anchor></h3>
         <p>The appearance or disappearance of an object on the screen.</p>
         <p>MEANT TO HAVE PIC</p>
@@ -36,6 +37,7 @@ export default function DesignMotionSection() {
         <p>Characteristics or sequences of engaging animation that create surprise and delight.</p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h3><Anchor id="motion-key-principles">Physical Mass</Anchor></h3>
         <p>Objects in the physical world have mass, thus they speed up from a standstill and slow down to a stop. When choose easing:<br></br></p>
         <p>
@@ -47,6 +49,7 @@ export default function DesignMotionSection() {
             </ul>
         </p>
 
+        <br></br>
         <h3><Anchor id="motion-key-principles">Other Considerations</Anchor></h3>
         <p>The object being moved or animated should abide by these guiding principles:</p>
         <p>
@@ -57,6 +60,7 @@ export default function DesignMotionSection() {
             </ul>
         </p>
 
+        <br></br>
         <h3><Anchor id="motion-key-principles">Physical Mass</Anchor></h3>
         <p>Elevation suggests a conceptual hierarchy that makes use of box shadows to indicate visual hierarchy. The actual Z-index is up to the developer to maintain the correct shadows.</p>
         <p>Atmosphere is the virtual space in front and behind the screen. The plane of the screen has an X,Y coordinate system with <b>0,0</b> in the top left. However, the Z elevation is the imaginary normal pointed at the user, -Z descent is beyond the plane of the screen.</p>
@@ -68,6 +72,7 @@ export default function DesignMotionSection() {
             To implement the shadows in code there are <a href="https://www.lightningdesignsystem.com/design-tokens/#category-atmosphere">Design Tokens</a> you can include in the CSS <b>box-shadow</b> attribute.
         </p>
 
+        <br></br>
         <h3><Anchor id="motion-key-principles">Timing</Anchor></h3>
         <p>
             Timings are a set of duration values. Values are calculated as even multiples of <b>100ms</b>, which is 6 frames at 60 frames-per-second (3 frames at 30 frames-per-second).
@@ -76,6 +81,7 @@ export default function DesignMotionSection() {
             To use the timing tokens see the <a href="https://www.lightningdesignsystem.com/design-tokens/#category-timing">timing section</a>.
         </p>
 
+        <br></br>
         <h3><Anchor id="motion-key-principles">Named Animations</Anchor></h3>
         <p>
             This is a vocabulary of animations. Click to run individual demos:

@@ -27,6 +27,7 @@ export default function DesignLayoutSection() {
             </ul>
         </p>
 
+        <br></br>
         <h3><Anchor id="layout-guidelines">Record Layouts</Anchor></h3>
         <p>
             Record layouts consist of a page header, a main content area and a sidebar. The content that should appear in each of these areas depends on the primary use case you are solving for.
@@ -41,6 +42,7 @@ export default function DesignLayoutSection() {
             The main content area uses two-thirds of the viewport. The sidebar uses the other third, with a minimum width of 400px to maintain readability. If the reference layout appears inside of a Master/Detail, the sidebar collapses into a tab in the main content area.
         </p>
 
+        <br></br>
         <h4>
             Workspace Layouts
         </h4>
@@ -51,6 +53,7 @@ export default function DesignLayoutSection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Reference Layouts</h4>
         <p>
             A reference layout is optimized for when users are primarily jumping to related records. It highlights the related records by displaying this information in the larger content area. Collaborative items are placed in the smaller sidebar. A summary of the record’s details are in a panel above the content area for easy reference.
@@ -59,6 +62,7 @@ export default function DesignLayoutSection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h3><Anchor id="layout-guidelines">List Layouts</Anchor></h3>
         <p>
             A list layout consists of a simple page header and body that allows users to switch between predefined lists of items. Common controls include sorting, filtering, charting, and actions for the item type. Users can also switch between list layouts using the “Display” menu.
@@ -74,6 +78,7 @@ export default function DesignLayoutSection() {
             </ul>
         </p>
 
+        <br></br>
         <h4>Table Layouts</h4>
         <p>
             Use a table layout for flexibly viewing and managing large sets of data. The layout uses 100% of the viewport. Items are displayed as rows with their fields organized in columns.
@@ -88,6 +93,7 @@ export default function DesignLayoutSection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Board Layouts</h4>
         <p>
             Use a board layout for items that are advancing through a linear workflow, such as a sales process, because it allows users to quickly move items between stages.
@@ -103,6 +109,7 @@ export default function DesignLayoutSection() {
         </p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h3><Anchor id="layout-guidelines">Master Detail Layouts</Anchor></h3>
         <p>
             A master-detail layout is ideal for working through a queue of items because it allows the user to stay on the same screen while viewing and editing multiple items.

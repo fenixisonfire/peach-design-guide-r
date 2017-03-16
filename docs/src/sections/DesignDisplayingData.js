@@ -33,6 +33,7 @@ export default function DesignDisplayingDataSection() {
             It’s recommended to provide a message when a list is empty. For example, “No items to display. Try editing filters for this list view or switching list views.”
         </p>
 
+        <br></br>
         <h4>Table</h4>
         <p>
             A table is the most basic format for displaying a list. Each record is represented by a single row of data that begins with the record’s primary field and shows additional fields in subsequent columns. The data is labeled using column headers that can be interactive.
@@ -50,6 +51,7 @@ export default function DesignDisplayingDataSection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Tree Grid</h4>
         <p>
             A tree grid is useful for displaying large amounts of hierarchical data, where records are grouped into parent-child relationships. This format is similar to a table, with the exception that the first column also represents the relationship between records. It also offers similar benefits including sorting and filtering.
@@ -65,6 +67,7 @@ export default function DesignDisplayingDataSection() {
         </p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h4>Tiles</h4>
         <p>
             A tile begins with a primary field and can include a supporting icon or image and additional fields. Data is presented as label­value pairs. The user interacts with elements within the tile, such as buttons and links, not the tile as a whole.
@@ -77,13 +80,14 @@ export default function DesignDisplayingDataSection() {
         </p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h4>Interactive Cards</h4>
         <p>
             To make tiles more interactive, you can add a card wrapper around individual tiles and allow users to drag and drop them. Use cards when the order and placement of individual items in a list is important.
         </p>
         <p>MEANT TO HAVE PIC</p>
 
-
+        <br></br>
         <h3><Anchor id="record-lists">Feeds</Anchor></h3>
         <p><b>
             Feeds offer a way for users to communicate and stay informed of activities related to records.
@@ -95,6 +99,7 @@ export default function DesignDisplayingDataSection() {
             It’s recommended to provide a message when a feed is empty. For example, an activity feed might say, “No next steps. To get things moving, add a task or set up a meeting.”
         </p>
 
+        <br></br>
         <h4>Discussion Feeds</h4>
         <p>
             A discussion feed is a conversation between users. Individual messages in the discussion allow inline replies and comments, but don’t allow replies to those replies—no layered threading. In addition to the message, each item in the feed displays the user who posted it, date it was posted, row level actions to bookmark or delete (owner only), a button to like the post, and the number of likes. A post can include mentioning other users and file attachments.
@@ -104,6 +109,7 @@ export default function DesignDisplayingDataSection() {
         </p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h4>Activity Feeds</h4>
         <p>
             An activity feed tracks what a user has done and what a user is about to do on a record. Each feed item includes the activity type, subject, and additional fields specific to that activity type. Activity types can include email messages, tasks, calendar events, calls logs, and other updates to the record or related records.

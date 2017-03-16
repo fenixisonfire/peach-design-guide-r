@@ -21,16 +21,19 @@ export default function DesignAccessibilitySection() {
       The Design System enables accessible development by providing a set of semantically correct components, each with appropriate <a href="https://www.w3.org/TR/wai-aria/">ARIA</a> markup so they can be identified correctly to users of assistive technologies.
       </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Standards Compliant Markup</Anchor></h3>
         <p>
             The semantic markup and use of ARIA roles in our components are based on W3C standards and industry best practices. This markup is the perfect starting point for building accessible components.
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Keyboard Navigation</Anchor></h3>
         <p>
             While we do not provide the JavaScript that is necessary to make our components interactive, we offer advice on how to use scripting languages to create keyboard-accessible components.
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Appropriate use of color</Anchor></h3>
         <p>
             Our components follow the two main rules of accessibility as it relates to color:
@@ -41,26 +44,31 @@ export default function DesignAccessibilitySection() {
             </ul>
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Accessible Forms</Anchor></h3>
         <p>
             Our forms offer proper use of <b>&lt;fieldset&gt;</b> and <b>&lt;legend&gt;</b> tags as well as appropriate labeling for input controls. Our radio button and checkbox controls provide a balanced solution that offers accessibility as well as design flexibility.
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Images and icons</Anchor></h3>
         <p>
             We provide a means of offering text-based alternatives for all images, icons and SVGs.
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Component Identity</Anchor></h3>
         <p>
             Our interactive components are created in accordance with the latest <a href="http://w3c.github.io/aria/practices/aria-practices.html">ARIA Authoring Practices</a>, with attributes that are understandable by screen reader users on key page elements. It is important to note that as a component is interacted with, the ARIA attributes may need updating to reflect the new state. Hence, we provided detailed guidance on how and when to do this.
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Validating your applications</Anchor></h3>
         <p>
             The Design System is only the foundation for accessible application development. We recommend that you review the accessibility of your applications before release and ensure that it meets the <a href="https://www.w3.org/TR/WCAG20/#conformance">WCAG Standard at the AA Level</a>.
         </p>
 
+        <br></br>
         <h3><Anchor id="web-accessibility">Resources</Anchor></h3>
         <p>
             <ul>

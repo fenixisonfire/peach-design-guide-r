@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293f7e3c-92b5-4800-aaa8-3617ed2b9deb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignColor.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignColor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignLayout.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignLoading.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignLoading.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignLocalization.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignLocalization.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignMotion.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignMotion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignNavigation.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignNavigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/src/sections/DesignTypography.js" afterPath="$PROJECT_DIR$/docs/src/sections/DesignTypography.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,31 +35,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/src/HomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DesignsPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/src/DesignsPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DesignLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="110" column="178" lean-forward="false" selection-start-line="110" selection-start-column="178" selection-end-line="110" selection-end-column="178" />
+            <state relative-caret-position="615">
+              <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignLoading.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLoading.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignLocalization.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLocalization.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="153" column="26" lean-forward="false" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -58,8 +74,8 @@
       <file leaf-file-name="DesignMarkupAndStyle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="77" column="339" lean-forward="false" selection-start-line="77" selection-start-column="339" selection-end-line="77" selection-end-column="339" />
+            <state relative-caret-position="536">
+              <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,11 +83,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignMotion.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DesignNavigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignNavigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="118" column="17" lean-forward="false" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignTypography.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignTypography.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignMotion.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMotion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-379">
-              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="551">
+              <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -79,14 +119,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignVoiceAndTone.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js">
+      <file leaf-file-name="DesignColor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignColor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="30" column="326" lean-forward="false" selection-start-line="30" selection-start-column="326" selection-end-line="30" selection-end-column="326" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignDataEntry.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignDisplayingData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,21 +176,23 @@
         <option value="$PROJECT_DIR$/docs/src/sections/Design_Overview.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/Design_Typography.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/Design_VoiceandTone.js" />
-        <option value="$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js" />
-        <option value="$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js" />
-        <option value="$PROJECT_DIR$/docs/src/sections/DesignColor.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/img-clarity.svg" />
         <option value="$PROJECT_DIR$/docs/src/DesignsPage.js" />
         <option value="$PROJECT_DIR$/docs/src/ComponentsPage.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/SVGs/img-clarity.svg" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignColor.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignLayout.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignLoading.js" />
-        <option value="$PROJECT_DIR$/docs/src/sections/DesignOverview.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignLocalization.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js" />
-        <option value="$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js" />
         <option value="$PROJECT_DIR$/docs/src/sections/DesignMotion.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignNavigation.js" />
+        <option value="$PROJECT_DIR$/docs/src/sections/DesignTypography.js" />
       </list>
     </option>
   </component>
@@ -343,23 +403,24 @@
       <workItem from="1489257788956" duration="5922000" />
       <workItem from="1489325822192" duration="593000" />
       <workItem from="1489597871501" duration="2858000" />
-      <workItem from="1489661792671" duration="7470000" />
+      <workItem from="1489661792671" duration="7805000" />
+      <workItem from="1489676571710" duration="2589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19054000" />
+    <option name="totallyTimeSpent" value="21978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37339056" sideWeight="0.4216418" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3783977" sideWeight="0.41791046" order="4" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37339056" sideWeight="0.57835823" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3783977" sideWeight="0.58208954" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -403,17 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/Design_Layout.js" />
     <entry file="file://$PROJECT_DIR$/docs/src/sections/Design_Loading.js" />
     <entry file="file://$PROJECT_DIR$/docs/src/sections/Design_Localization.js" />
     <entry file="file://$PROJECT_DIR$/docs/src/sections/Design_MarkupandStyle.js" />
@@ -494,60 +544,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/SVGs/img-clarity.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="182" lean-forward="false" selection-start-line="20" selection-start-column="182" selection-end-line="20" selection-end-column="182" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="150" column="186" lean-forward="false" selection-start-line="150" selection-start-column="186" selection-end-line="150" selection-end-column="186" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/SVGs/img-clarity.svg" />
     <entry file="file://$PROJECT_DIR$/docs/src/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -556,26 +556,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignOverview.js">
+    <entry file="file://$PROJECT_DIR$/docs/src/DesignsPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/DesignsPage.js">
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="30" column="326" lean-forward="false" selection-start-line="30" selection-start-column="326" selection-end-line="30" selection-end-column="326" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignOverview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignAccessibility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignColor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDataEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignDisplayingData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="110" column="178" lean-forward="false" selection-start-line="110" selection-start-column="178" selection-end-line="110" selection-end-column="178" />
+        <state relative-caret-position="615">
+          <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -584,8 +626,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLoading.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="566">
+          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -594,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignLocalization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="133" column="64" lean-forward="false" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
+        <state relative-caret-position="645">
+          <caret line="153" column="26" lean-forward="false" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -604,18 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMarkupAndStyle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="77" column="339" lean-forward="false" selection-start-line="77" selection-start-column="339" selection-end-line="77" selection-end-column="339" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignVoiceAndTone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="30" column="326" lean-forward="false" selection-start-line="30" selection-start-column="326" selection-end-line="30" selection-end-column="326" />
+        <state relative-caret-position="536">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -624,8 +656,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignMotion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="551">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="118" column="17" lean-forward="false" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/src/sections/DesignTypography.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

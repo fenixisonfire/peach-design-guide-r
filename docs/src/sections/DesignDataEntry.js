@@ -33,6 +33,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Sizing</h4>
         <p>
             The default text size creates a visual hierarchy between the label text and the input text. To conserve vertical space or when you have a long list of fields in a width-constrained sidebar, a smaller input size is also available.
@@ -42,6 +43,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Input Help</h4>
         <p>
             To assist the users, you can add help text. If the explanation is lengthy, use an “info” icon and tooltip. For brief explanations (shorter than a sentence), you can place the text underneath the field.
@@ -51,6 +53,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h3><Anchor id="basic-text">Basic Text Input</Anchor></h3>
         <p>
             <b>
@@ -66,6 +69,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Lookups</h4>
         <p>
             A lookup allows the user to search a database for records to fill a field. The lookup can either limit the user to a single record or allow for multiple records to populate a single field.
@@ -73,7 +77,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
-
+        <br></br>
         <h3><Anchor id="basic-text">Selection Input</Anchor></h3>
         <p>
             <b>
@@ -89,6 +93,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Radio Lists</h4>
         <p>
             A radio list allows the user to select one option from a short list (fewer than 10 options). You must have enough space to present all options together to make comparison easy. Typically, radio lists are presented as a standalone field, such as a poll within a feed, and not used in a larger form.
@@ -96,6 +101,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Checkbox Toggle</h4>
         <p>
             A toggle is similar to a checkbox in that it presents users with a binary choice for an item. However, a toggle is self-contained — think of it as a short form with only one field. When user turns a toggle on or off, the change for that item is saved immediately.
@@ -105,6 +111,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h5>USAGE</h5>
         <p>
             Use a toggle if the field you’re building:
@@ -114,13 +121,10 @@ export default function DesignDataEntrySection() {
                 <li>Semantically fits the on/off model.</li>
             </ul>
             <br></br><br></br>
-            MEANT TO HAVE PIC
-            <br></br><br></br>
-            MEANT TO HAVE PIC
-            <br></br><br></br>
-            MEANT TO HAVE PIC
+            MEANT TO HAVE PIC 3
         </p>
 
+        <br></br>
         <h5>LABELS</h5>
         <p>
             A toggle is always accompanied by two external labels:
@@ -130,6 +134,7 @@ export default function DesignDataEntrySection() {
             </ul>
         </p>
 
+        <br></br>
         <h4>Picklists</h4>
         <p>
             Picklists, commonly known as dropdown menus, allow the user to select one option or multiple options from a list. Picklists are used instead of radio lists and checkbox lists inside of a larger form. They provide more flexibility in the number of options the user can choose from.
@@ -137,6 +142,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Dueling Picklists</h4>
         <p>
             Use this control when the user needs to select more than one option and define the order of the selected items.
@@ -144,6 +150,7 @@ export default function DesignDataEntrySection() {
             MEANT TO HAVE PIC
         </p>
 
+        <br></br>
         <h4>Inline Edit</h4>
         <p>
             Inline editing allows the user to edit some part of a record without making a major switch between viewing and editing. This is a highly efficient method of updating a record. A user can make their changes without losing context and they can immediately return to what they were doing before.

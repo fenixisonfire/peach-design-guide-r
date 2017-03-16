@@ -19,14 +19,10 @@ export default function DesignOverviewSection() {
             <p>
                 We constantly keep these core principles in mind when making design decisions at Salesforce, and we encourage you to adopt them as well.
                 <br></br><br></br>
-                MEANT TO HAVE PIC:::
+                MEANT TO HAVE PIC :
                 <Image src="files/img-clarity.svg" className="svg" rounded />
                 <br></br><br></br>
-                MEANT TO HAVE PIC
-                <br></br><br></br>
-                MEANT TO HAVE PIC
-                <br></br><br></br>
-                MEANT TO HAVE PIC
+                MEANT TO HAVE PIC 3
             </p>
         </div>
     );

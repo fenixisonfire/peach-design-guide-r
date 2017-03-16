@@ -17,6 +17,7 @@ export default function DesignLoadingSection() {
             </b>
         </p>
 
+        <br></br>
         <h3><Anchor id="loading-spinners">Spinners</Anchor></h3>
         <p>
             <b>
@@ -36,6 +37,7 @@ export default function DesignLoadingSection() {
         <p>Example Spinner Loading Process:</p>
         <p>MEANT TO HAVE PIC 5</p>
 
+        <br></br>
         <h3><Anchor id="loading-spinners">Stencils</Anchor></h3>
         <p>
             <b>
@@ -62,12 +64,14 @@ export default function DesignLoadingSection() {
             Load stencils from the top left of the page to the bottom right.
         </p>
 
+        <br></br>
         <h4>Table Data Loading Stencil</h4>
         <p>
             For table lists, don’t fill the screen up with stencils. Render a table data row stencil 20 times and reduce the opacity of each row by 5% to create a fade effect from 100% to 0% opacity, giving an infinite data effect. (see example below)
         </p>
         <p>MEANT TO HAVE PIC</p>
 
+        <br></br>
         <h4>Record Detail Stencil</h4>
         <p>
             Feed fades out over five instances to indicate infinite scroll. Each related list shows one instance of the component-specific stencil.
