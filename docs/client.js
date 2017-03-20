@@ -25,6 +25,7 @@ import './assets/thumbnail.png';
 import './assets/thumbnaildiv.png';
 import './assets/TheresaKnott_castle.svg';
 import './assets/peachlogowhite.svg';
+import './assets/design/img-clarity.svg'
 
 global.CodeMirror = CodeMirror;
 

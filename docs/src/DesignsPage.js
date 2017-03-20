@@ -12,6 +12,7 @@ import PageFooter from './PageFooter';
 import SubNav from './SubNav';
 import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
+import Image from '../../src/Image';
 
 import DesignOverviewSection from './sections/DesignOverview';
 import DesignAccessibilitySection from './sections/DesignAccessibility';

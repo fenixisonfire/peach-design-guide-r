@@ -24,10 +24,13 @@ export default class HomePage extends React.Component {
 
         <main className="bs-docs-masthead" id="content" role="main">
           <div className="container">
-            <Image src="./../assets/peachlogowhite.svg" rounded />
+
+            <Image width='400' height='400' viewBox='0 0 400 400'
+            src="./../assets/peachlogowhite.svg" rounded/>
+
             <br></br>
             <br></br>
-            <p className="lead">DESIGN GUIDE</p>
+            <p className="lead">Design Guide</p>
           </div>
         </main>
 
