@@ -4,6 +4,7 @@ import Anchor from '../Anchor';
 import PropTable from '../PropTable';
 import ReactPlayground from '../ReactPlayground';
 import Samples from '../Samples';
+import Image from '../../../src/Image';
 
 export default function DesignDisplayingDataSection() {
   return (
@@ -11,6 +12,11 @@ export default function DesignDisplayingDataSection() {
       <h2 className="page-header">
         <Anchor id="displaydata">Displaying Data</Anchor>
       </h2>
+        <p>
+            <b>
+                Lists and feeds help users navigate data either by theme or chronology. These various ways of displaying data are optimized to help users locate, browse, and work together on records.
+            </b>
+        </p>
 
       <h3><Anchor id="record-lists">Record Lists</Anchor></h3>
       <p>
@@ -47,8 +53,9 @@ export default function DesignDisplayingDataSection() {
         <p>
             On narrow screens where only a few columns will fit, tables should elegantly and responsively collapse into tile lists.
         </p>
+        <br></br>
         <p>
-            MEANT TO HAVE PIC
+            <Image src="./../../assets/img-table.svg" rounded/>
         </p>
 
         <br></br>
@@ -65,7 +72,10 @@ export default function DesignDisplayingDataSection() {
         <p>
             On narrow screens where only a few columns will fit, tree grids should elegantly and responsively collapse into a tree list.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tree-grid.svg" rounded/>
+        </p>
 
         <br></br>
         <h4>Tiles</h4>
@@ -78,14 +88,20 @@ export default function DesignDisplayingDataSection() {
         <p>
             On wider screens where more than 2 columns of tiles will appear, tile lists should elegantly and responsively expand into tables.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tile.svg" rounded/>
+        </p>
 
         <br></br>
         <h4>Interactive Cards</h4>
         <p>
             To make tiles more interactive, you can add a card wrapper around individual tiles and allow users to drag and drop them. Use cards when the order and placement of individual items in a list is important.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-interactive-card.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="record-lists">Feeds</Anchor></h3>
@@ -107,7 +123,10 @@ export default function DesignDisplayingDataSection() {
         <p>
             The discussion feed can include multiple message types that add interactive features. For example, you could include a poll.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-discussion-feed.svg" rounded/>
+        </p>
 
         <br></br>
         <h4>Activity Feeds</h4>
@@ -117,8 +136,10 @@ export default function DesignDisplayingDataSection() {
         <p>
             The activity feed can show past and future events.
         </p>
-        <p>MEANT TO HAVE PIC</p>
-
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-activity-feed.svg" rounded/>
+        </p>
     </div>
   );
 }

@@ -13,6 +13,11 @@ export default function DesignAccessibilitySection() {
       <h2 className="page-header">
         <Anchor id="accessibility">Accessibility</Anchor>
       </h2>
+        <p>
+            <b>
+                The Lightning Design System provides accessible markup which will serve as a foundation for your application development. In order to make sure you build accessible components, however, you will need to follow the accessibility guidance for our interactive components. This includes keyboard behavior as well as the management of ARIA roles and properties.
+            </b>
+        </p>
 
       <h3><Anchor id="web-accessibility">What is accessibility?</Anchor></h3>
       <p>

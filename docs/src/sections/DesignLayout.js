@@ -4,6 +4,7 @@ import Anchor from '../Anchor';
 import PropTable from '../PropTable';
 import ReactPlayground from '../ReactPlayground';
 import Samples from '../Samples';
+import Image from '../../../src/Image';
 
 export default function DesignLayoutSection() {
   return (
@@ -35,9 +36,11 @@ export default function DesignLayoutSection() {
         <p>
             The page header above the content area extends across the entire viewport. When the user scrolls, the panel is fixed to provide locational context, but it shrinks to preserve vertical real estate.
         </p>
+        <br></br>
         <p>
-            MEANT TO HAVE PIC
+            <Image src="./../../assets/img-record-layout.svg" rounded/>
         </p>
+        <br></br>
         <p>
             The main content area uses two-thirds of the viewport. The sidebar uses the other third, with a minimum width of 400px to maintain readability. If the reference layout appears inside of a Master/Detail, the sidebar collapses into a tab in the main content area.
         </p>
@@ -49,8 +52,9 @@ export default function DesignLayoutSection() {
         <p>
             A workspace layout facilitates user collaboration on records. It highlights the activity and discussion that is happening around a record by placing this information prominently in the larger content area, while simultaneously displaying the related records in the sidebar. A summary of the record’s details are in a panel above the content area for easy reference.
         </p>
+        <br></br>
         <p>
-            MEANT TO HAVE PIC
+            <Image src="./../../assets/img-workspace-layout.svg" rounded/>
         </p>
 
         <br></br>
@@ -58,8 +62,9 @@ export default function DesignLayoutSection() {
         <p>
             A reference layout is optimized for when users are primarily jumping to related records. It highlights the related records by displaying this information in the larger content area. Collaborative items are placed in the smaller sidebar. A summary of the record’s details are in a panel above the content area for easy reference.
         </p>
+        <br></br>
         <p>
-            MEANT TO HAVE PIC
+            <Image src="./../../assets/img-reference-layout.svg" rounded/>
         </p>
 
         <br></br>
@@ -89,8 +94,9 @@ export default function DesignLayoutSection() {
         <p>
             The table can be of infinite length. Data is loaded as the user scrolls. This lets your users access their data most efficiently. Avoid using manual pagination controls, which reduce efficiency.
         </p>
+        <br></br>
         <p>
-            MEANT TO HAVE PIC
+            <Image src="./../../assets/img-table-layout.svg" rounded/>
         </p>
 
         <br></br>
@@ -107,7 +113,10 @@ export default function DesignLayoutSection() {
         <p>
             If the columns don’t fill the viewport, they are expanded to their maximum width, and the area to the right of the last column remains empty.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-board-layout.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="layout-guidelines">Master Detail Layouts</Anchor></h3>
@@ -117,15 +126,27 @@ export default function DesignLayoutSection() {
         <p>
             The layout groups together two layout views with a one-to-many relationship. Selecting an item from the master view (which contains a list) causes the details of that item to be populated in the detail view, using a condensed reference or workspace layout.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-master-detail-1.svg" rounded/>
+        </p>
+        <br></br>
         <p>
             A master-detail layout is also useful for exploring a deeply nested tree, like a file system, by displaying a tree component on the left and a table component on the right. This allows users to jump between nodes in the tree and to simultaneously view the full contents of each node as a list.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-master-detail-2.svg" rounded/>
+        </p>
+        <br></br>
         <p>
             Master detail layouts work best on a larger screen (minimum of 1024px). If the screen is smaller, the two layout views should be defined as separate pages.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-master-detail-3.svg" rounded/>
+        </p>
+        <br></br>
     </div>
   );
 }
