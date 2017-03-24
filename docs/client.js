@@ -69,6 +69,9 @@ import './assets/design/img-master-detail-2.svg'
 import './assets/design/img-master-detail-3.svg'
 
 
+//D3 placeholder. 
+import './assets/d3placeholder.png'
+
 
 global.CodeMirror = CodeMirror;
 
