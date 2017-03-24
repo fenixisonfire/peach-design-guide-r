@@ -4,6 +4,7 @@ import Anchor from '../Anchor';
 import PropTable from '../PropTable';
 import ReactPlayground from '../ReactPlayground';
 import Samples from '../Samples';
+import Image from '../../../src/Image';
 
 export default function DesignMarkupAndStyleSection() {
   return (
@@ -24,6 +25,10 @@ export default function DesignMarkupAndStyleSection() {
         <h3><Anchor id="bem-naming">BEM Naming</Anchor></h3>
         <p>
             <a href="https://en.bem.info/">BEM</a> is a well-known method of naming components — block, element, modifier. If you’re comfortable with BEM, move down to the “Where we diverge from BEM” section. For those unfamiliar or who need a quick refresh, let’s briefly look at how BEM works. As an example, we’ll build a house component.
+        </p>
+        <br></br>
+        <p>
+            <Image width='600' src="./../../assets/house.png" rounded/>
         </p>
 
         <br></br>

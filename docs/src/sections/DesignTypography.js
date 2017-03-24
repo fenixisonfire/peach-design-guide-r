@@ -4,6 +4,7 @@ import Anchor from '../Anchor';
 import PropTable from '../PropTable';
 import ReactPlayground from '../ReactPlayground';
 import Samples from '../Samples';
+import Image from '../../../src/Image';
 
 export default function DesignTypographySection() {
   return (
@@ -36,7 +37,10 @@ export default function DesignTypographySection() {
                 0 1 2 3 4 5 6 7 8 9
             </big></big>
         </p>
-        <p>MEANT TO HAVE PIC 4</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-font-scale.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="salesforce-sans">Type Sizes</Anchor></h3>

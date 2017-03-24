@@ -4,6 +4,7 @@ import Anchor from '../Anchor';
 import PropTable from '../PropTable';
 import ReactPlayground from '../ReactPlayground';
 import Samples from '../Samples';
+import Image from '../../../src/Image';
 
 export default function DesignLoadingSection() {
   return (
@@ -27,15 +28,65 @@ export default function DesignLoadingSection() {
         <p>
             Spinners are animated SVGs or GIFs. They reduce the use of awkward white screens and blank containers to communicate that the system is working. Use spinners when a component on a page is making an asynchronous update without refreshing the page.
         </p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-loading-card.svg" rounded/>
+        </p>
+        <p>
+            Card
+        </p>
+        <br></br>
         <p>
             Center the spinner horizontally and vertically within the container. Don’t place spinners directly over text or other visual elements on a page without first applying a light or dark mask.
         </p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-loading-lazy.svg" rounded/>
+        </p>
+        <p>
+            List View
+        </p>
+        <br></br>
         <p>
             If necessary, you can use a text label to communicate what the system is doing, such as “Uploading data …”
         </p>
-        <p>MEANT TO HAVE PIC</p>
         <p>Example Spinner Loading Process:</p>
-        <p>MEANT TO HAVE PIC 5</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/localization-menu-french.png" rounded/>
+        </p>
+        <p>
+            Card Loading
+        </p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-loading-lazy.svg" rounded/>
+        </p>
+        <p>
+            Lazy Loading
+        </p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-loading-list.svg" rounded/>
+        </p>
+        <p>
+            List Loading
+        </p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-loading-modal.svg" rounded/>
+        </p>
+        <p>
+            Modal Loading
+        </p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-loading-page.svg" rounded/>
+        </p>
+        <p>
+            Full Screen Loading
+        </p>
+
 
         <br></br>
         <h3><Anchor id="loading-spinners">Stencils</Anchor></h3>
@@ -53,7 +104,11 @@ export default function DesignLoadingSection() {
         <p>
             If a component is only displayed when it has data, then don’t show a stencil.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-stencils.svg" rounded/>
+        </p>
+        <br></br>
         <p>
             Keep stencils simple and lightweight, by using simple, subtle shapes to indicate content, but don’t include the placement of buttons and other UI elements. Keep the shape heights consistent to reduce visual noise.
         </p>
@@ -69,14 +124,20 @@ export default function DesignLoadingSection() {
         <p>
             For table lists, don’t fill the screen up with stencils. Render a table data row stencil 20 times and reduce the opacity of each row by 5% to create a fade effect from 100% to 0% opacity, giving an infinite data effect. (see example below)
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-stencil-table.svg" rounded/>
+        </p>
 
         <br></br>
         <h4>Record Detail Stencil</h4>
         <p>
             Feed fades out over five instances to indicate infinite scroll. Each related list shows one instance of the component-specific stencil.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-stencil-record.svg" rounded/>
+        </p>
     </div>
   );
 }

@@ -68,6 +68,50 @@ import './assets/design/img-master-detail-1.svg'
 import './assets/design/img-master-detail-2.svg'
 import './assets/design/img-master-detail-3.svg'
 
+import './assets/design/img-loading-card.svg'
+import './assets/design/img-loading-lazy.svg'
+import './assets/design/img-loading-list.svg'
+import './assets/design/img-loading-modal.svg'
+import './assets/design/img-loading-record.svg'
+import './assets/design/img-loading-page.svg'
+import './assets/design/img-stencils.svg'
+import './assets/design/img-stencil-record.svg'
+import './assets/design/img-stencil-table.svg'
+
+import './assets/design/localization-menu-english.png'
+import './assets/design/localization-menu-french.png'
+import './assets/design/localization-button-done-english.png'
+import './assets/design/localization-button-done-portuguese.png'
+import './assets/design/t1.png'
+import './assets/design/t2.png'
+import './assets/design/localization-anchor-english.png'
+import './assets/design/localization-anchor-japanese.png'
+
+import './assets/design/house.png'
+
+import './assets/design/img-timing.svg'
+import './assets/design/img-elevation.svg'
+import './assets/design/img-effects.svg'
+import './assets/design/img-enter-exit.svg'
+import './assets/design/img-emphasis.svg'
+import './assets/design/img-transitional.svg'
+import './assets/design/img-personality.svg'
+import './assets/design/img-elevation-perspective.svg'
+import './assets/design/g1.png'
+
+import './assets/design/img-tabs.svg'
+import './assets/design/img-tabs-global.svg'
+import './assets/design/img-tabs-scoped.svg'
+import './assets/design/img-tabs-nesting.svg'
+import './assets/design/img-tree.svg'
+import './assets/design/img-breadcrumbs.svg'
+import './assets/design/img-breadcrumbs-truncate.svg'
+import './assets/design/img-modal-sections.svg'
+import './assets/design/img-modal-width.svg'
+
+import './assets/design/img-font-scale.svg'
+
+
 
 //D3 placeholder. 
 import './assets/d3placeholder.png'

@@ -4,6 +4,7 @@ import Anchor from '../Anchor';
 import PropTable from '../PropTable';
 import ReactPlayground from '../ReactPlayground';
 import Samples from '../Samples';
+import Image from '../../../src/Image';
 
 export default function DesignNavigationSection() {
   return (
@@ -24,7 +25,11 @@ export default function DesignNavigationSection() {
                 Use tabs to separate information into logical sections based on functionality or use case.
             </b>
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tabs.svg" rounded/>
+        </p>
+        <br></br>
         <p>
             Users can easily switch between tabs to perform tasks without leaving the page. Assign a default tab based on the most important use case for the page. The sections that the tabs define function independently of each other, so do not use tabs to define a linear, ordered process.
         </p>
@@ -40,20 +45,30 @@ export default function DesignNavigationSection() {
         <p>
             A global tab changes all of the content below it. For example, the Activity, Collaboration, and Details tabs change all of the content within the left column on an Opportunity.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tabs-global.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="tabs">Scoped Tabs</Anchor></h3>
         <p>
             A scoped tab affects only the content within the visual container that it sits on top of. For example, the publisher tabs change just the form for the activity timeline, but nothing changes in the feed below. This is useful when one wants to stack several tabbed sections.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tabs-scoped.svg" rounded/>
+        </p>
+
         <br></br>
         <h3><Anchor id="tabs">Nesting Tabs</Anchor></h3>
         <p>
             Although not ideal, you might occasionally need to nest tabs. You can nest scoped tabs within a global tab set, but do not nest global tabs. If additional hierarchy is necessary, consider using a tree component.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tabs-nesting.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="tabs">Trees</Anchor></h3>
@@ -74,7 +89,10 @@ export default function DesignNavigationSection() {
         <p>
             Every item in the list doesn’t have to have a corresponding page. Instead, you can use label groups to organize related pages without providing an unnecessary landing page.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-tree.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="tabs">Breadcrumbs</Anchor></h3>
@@ -83,14 +101,21 @@ export default function DesignNavigationSection() {
                 Breadcrumbs help users navigate back up a hierarchy of pages.
             </b>
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-breadcrumbs.svg" rounded/>
+        </p>
+        <br></br>
         <p>
             A breadcrumb indicates the hierarchy path (parent­-child relationships) of the page a user is on, rather than the order of the user’s browsing history. Breadcrumbs are especially useful when a user links directly to a page that is nested in a hierarchy but needs to go to a parent page. They also helps users situate themselves in the application.
         </p>
         <p>
             Breadcrumbs are commonly used in conjunction with a tree for navigating between nested pages. The full hierarchy path is listed on a second or third level page. When the user is on a page deeper than three levels, the breadcrumb displays only the last two links. The rest of the hierarchy path is truncated, as shown in the following figure.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-breadcrumbs-truncate.svg" rounded/>
+        </p>
 
         <br></br>
         <h3><Anchor id="tabs">Modals</Anchor></h3>
@@ -108,7 +133,11 @@ export default function DesignNavigationSection() {
         <p>
             <b>Header</b> — Includes the title and an optional tagline. The title reflects the button text that triggered it. The tagline can contain links, or the entire tagline can be a link.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-modal-sections.svg" rounded/>
+        </p>
+        <br></br>
         <p>
             <b>Body</b> — You can have any type of content: forms, text, videos, and other media. For a directional modal, you can add a step indicator to indicate the user’s progress.
         </p>
@@ -124,7 +153,10 @@ export default function DesignNavigationSection() {
         <p>
             The height of a modal is determined primarily by the length of its contents. The maximum height of the modal container is determined by its exterior margin. If the content is longer than the length of the modal, allow the user to scroll within the modal. The header and footer are fixed.
         </p>
-        <p>MEANT TO HAVE PIC</p>
+        <br></br>
+        <p>
+            <Image src="./../../assets/img-modal-width.svg" rounded/>
+        </p>
     </div>
   );
 }
