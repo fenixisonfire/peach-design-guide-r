@@ -69,23 +69,11 @@ export default function DesignLocalizationSection() {
             Another typical UI pattern that introduces a localization issue is the use of inline forms such as input fields or dropdown lists in the middle of a sentence. This problem is caused by the fact that most languages do not follow the same word order as English. Due to this fact, the inline forms need to be repositioned to accommodate correct sentence structure in translated text.
         </p>
         <p>
-            MEANT TO HAVE CODE
-        </p>
-        <small>
-            Example inline form with From and To form fields with labels reading: From Date To Date.
-        </small>
-        <p>
             When “From DATE1 To DATE2” is translated into other languages, for example Japanese, the word order will change to “DATE1 から、DATE2 まで” (DATE1 From DATE2 To), which will cause grammatically incorrect translation unless we reposition inline forms in Japanese specifically. This will require language-specific CSS, which increases complexity.
         </p>
         <p>
             Since repositioning inline forms per language is not practical and adds CSS maintenance costs, we suggest avoiding any UI components in the middle of a sentence. If you have to, consider using a colon to connect the label and UI component and try to make the label a full sentence. In the previous example, we can use “Start: DATE1 End: DATE2” to make the label more independent.
         </p>
-        <p>
-            MEANT TO HAVE CODE
-        </p>
-        <small>
-            Example inline form with From and To form fields each having a colon after their labels.
-        </small>
 
         <br></br>
         <br></br>

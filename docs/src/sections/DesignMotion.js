@@ -131,13 +131,6 @@ export default function DesignMotionSection() {
         <p>
             To use the timing tokens see the <a href="https://www.lightningdesignsystem.com/design-tokens/#category-timing">timing section</a>.
         </p>
-
-        <br></br>
-        <h3><Anchor id="motion-key-principles">Named Animations</Anchor></h3>
-        <p>
-            This is a vocabulary of animations. Click to run individual demos:
-        </p>
-        <p>MEANT TO HAVE ANIMATION 17</p>
     </div>
   );
 }
