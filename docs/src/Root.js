@@ -12,7 +12,8 @@ const Root = React.createClass({
         'index.html',
         'introduction.html',
         'components.html',
-        'support.html'
+        'support.html',
+        'datavis.html'
       ];
     }
   },

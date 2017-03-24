@@ -8,6 +8,7 @@ import NotFoundPage from './NotFoundPage';
 import Root from './Root';
 import SupportPage from './SupportPage';
 import DesignPage from './DesignsPage';
+import Datavis from './Datavis';
 
 export default (
   <Route path="/" component={Root}>
@@ -16,6 +17,7 @@ export default (
     <Route path="components.html" component={ComponentsPage} />
     <Route path="support.html" component={SupportPage} />
     <Route path="designs.html" component={DesignPage} />
+    <Route path="datavis.html" component={Datavis} />
 
     <Route path="*" component={NotFoundPage} />
   </Route>

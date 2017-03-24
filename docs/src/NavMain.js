@@ -16,6 +16,10 @@ const NAV_LINKS = {
     link: '/components.html',
     title: 'Components'
   },
+  datavis: {
+    link: '/datavis.html',
+    title: 'Data Visualisation (D3)'
+  }
 };
 
 // We don't want to include react-router-bootstrap as a dependency here, so we
