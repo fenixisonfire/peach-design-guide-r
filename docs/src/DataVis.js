@@ -15,13 +15,54 @@ import ReactSVG from 'react-svg'
 import Image from '../../src/Image';
 
 import DatavisOverview from './sections/DatavisOverview';
-import DatavisContent from './sections/DatavisContent';
+
+import DataVisBasic from './sections/DataVisBasic';
+import DataVisBasicLine from './sections/DataVisBasicLine';
+import DataVisBasicLineM from './sections/DataVisBasicLineM';
+import DataVisBasicArea from './sections/DataVisBasicArea';
+import DataVisBasicAreaStack from './sections/DataVisBasicAreaStack';
+import DataVisBasicBar from './sections/DataVisBasicBar';
+import DataVisBasicBarGroup from './sections/DataVisBasicBarGroup';
+import DataVisBasicBarStack from './sections/DataVisBasicBarStack';
+import DataVisBasicScatter from './sections/DataVisBasicScatter';
+import DataVisBasicPie from './sections/DataVisBasicPie';
+import DataVisBasicDonut from './sections/DataVisBasicDonut';
+
+import DataVisTooltip from './sections/DataVisTooltip';
+import DataVisTooltipLine from './sections/DataVisTooltipLine';
+import DataVisTooltipLineM from './sections/DataVisTooltipLineM';
+import DataVisTooltipAreaStack from './sections/DataVisTooltipAreaStack';
+import DataVisTooltipBar from './sections/DataVisTooltipBar';
+import DataVisTooltipBarGroup from './sections/DataVisTooltipBarGroup';
+import DataVisTooltipBarStack from './sections/DataVisTooltipBarStack';
+import DataVisTooltipScatter from './sections/DataVisTooltipScatter';
+import DataVisTooltipPie from './sections/DataVisTooltipPie';
+
 
 // order matters
 /* eslint-disable indent */
 const sections = {
   overview: '#datavisoverview',
-  dataviscontent: '#dataviscontent',
+  datavisbasic: '#datavisbasic',
+    datavisbasicline: '#datavisbasicline',
+    datavisbasiclinem: '#datavisbasiclinem',
+    datavisbasicarea: '#datavisbasicarea',
+    datavisbasicareastack: '#datavisbasicareastack',
+    datavisbasicbar: '#datavisbasicbar',
+    datavisbasicbargroup: '#datavisbasicbargroup',
+    datavisbasicbarstack: '#datavisbasicbarstack',
+    datavisbasicscatter: '#datavisbasicscatter',
+    datavisbasicpie: '#datavisbasicpie',
+    datavisbasicdonut: '#datavisbasicdonut',
+  datavistooltip: '#datavistooltip',
+    datavistooltipline: '#datavistooltipline',
+    datavistooltiplinem: '#datavistooltiplinem',
+    datavistooltipareastack: '#datavistooltipareastack',
+    datavistooltipbar: '#datavistooltipbar',
+    datavistooltipbargroup: '#datavistooltipbargroup',
+    datavistooltipbarstack: '#datavistooltipbarstack',
+    datavistooltipscatter: '#datavistooltipscatter',
+    datavistooltippie: '#datavistooltippie',
 };
 /* eslint-enable indent */
 
@@ -125,11 +166,71 @@ const DatavisPage = React.createClass({
         <div ref="main" className="container bs-docs-container">
           <div className="row">
             <div className="col-md-9" role="main">
+
               {this.renderScrollSpy(sections.datavisoverview)}
               <DatavisOverview />
 
-              {this.renderScrollSpy(sections.dataviscontent)}
-              <DatavisContent />
+
+              {this.renderScrollSpy(sections.datavisbasic)}
+              <DataVisBasic />
+
+              {this.renderScrollSpy(sections.datavisbasicline)}
+              <DataVisBasicLine />
+
+              {this.renderScrollSpy(sections.datavisbasiclinem)}
+              <DataVisBasicLineM />
+
+              {this.renderScrollSpy(sections.datavisbasicarea)}
+              <DataVisBasicArea />
+
+              {this.renderScrollSpy(sections.datavisbasicareastack)}
+              <DataVisBasicAreaStack />
+
+              {this.renderScrollSpy(sections.datavisbasicbar)}
+              <DataVisBasicBar />
+
+              {this.renderScrollSpy(sections.datavisbasicbargroup)}
+              <DataVisBasicBarGroup />
+
+              {this.renderScrollSpy(sections.datavisbasicbarstack)}
+              <DataVisBasicBarStack />
+
+              {this.renderScrollSpy(sections.datavisbasicscatter)}
+              <DataVisBasicScatter />
+
+              {this.renderScrollSpy(sections.datavisbasicpie)}
+              <DataVisBasicPie />
+
+              {this.renderScrollSpy(sections.datavisbasicdonut)}
+              <DataVisBasicDonut />
+
+
+              {this.renderScrollSpy(sections.datavistooltip)}
+              <DataVisTooltip />
+
+              {this.renderScrollSpy(sections.datavistooltipline)}
+              <DataVisTooltipLine />
+
+              {this.renderScrollSpy(sections.datavistooltiplinem)}
+              <DataVisTooltipLineM />
+
+              {this.renderScrollSpy(sections.datavistooltipareastack)}
+              <DataVisTooltipAreaStack />
+
+              {this.renderScrollSpy(sections.datavistooltipbar)}
+              <DataVisTooltipBar />
+
+              {this.renderScrollSpy(sections.datavistooltipbargroup)}
+              <DataVisTooltipBarGroup />
+
+              {this.renderScrollSpy(sections.datavistooltipbarstack)}
+              <DataVisTooltipBarStack />
+
+              {this.renderScrollSpy(sections.datavistooltipscatter)}
+              <DataVisTooltipScatter />
+
+              {this.renderScrollSpy(sections.datavistooltippie)}
+              <DataVisTooltipPie />
 
             </div>
 
@@ -148,11 +249,34 @@ const DatavisPage = React.createClass({
                     activeHref={this.state.activeNavItemHref}
                     onSelect={this.handleNavItemSelect}
                   >
+
                     <SubNav href={sections.datavisoverview} text="Overview">
                     </SubNav>
 
-                    <SubNav href={sections.dataviscontent} text="Data Visualisation">
+                    <SubNav href={sections.datavisbasic} text="Basic Graphs">
+                      <NavItem href={sections.datavisbasicline}>Basic Line</NavItem>
+                      <NavItem href={sections.datavisbasiclinem}>Basic Line Multiple</NavItem>
+                      <NavItem href={sections.datavisbasicarea}>Basic Area</NavItem>
+                      <NavItem href={sections.datavisbasicareastack}>Basic Area Stack</NavItem>
+                      <NavItem href={sections.datavisbasicbar}>Basic Bar</NavItem>
+                      <NavItem href={sections.datavisbasicbargroup}>Basic Bar Group</NavItem>
+                      <NavItem href={sections.datavisbasicbarstack}>Basic Bar Stack</NavItem>
+                      <NavItem href={sections.datavisbasicscatter}>Basic Scatter</NavItem>
+                      <NavItem href={sections.datavisbasicpie}>Basic Pie</NavItem>
+                      <NavItem href={sections.datavisbasicdonut}>Basic Donut</NavItem>
                     </SubNav>
+
+                    <SubNav href={sections.datavistooltip} text="Tooltip Graphs">
+                      <NavItem href={sections.datavistooltipline}>Tooltip Line</NavItem>
+                      <NavItem href={sections.datavistooltiplinem}>Tooltip Line Multiple</NavItem>
+                      <NavItem href={sections.datavistooltipareastack}>Tooltip Area Stack</NavItem>
+                      <NavItem href={sections.datavistooltipbar}>Tooltip Bar</NavItem>
+                      <NavItem href={sections.datavistooltipbargroup}>Tooltip Bar Group</NavItem>
+                      <NavItem href={sections.datavistooltipbarstack}>Tooltip Bar Stack</NavItem>
+                      <NavItem href={sections.datavistooltipscatter}>Tooltip Scatter</NavItem>
+                      <NavItem href={sections.datavistooltippie}>Tooltip Pie</NavItem>
+                    </SubNav>
+
 
                   </Nav>
 
