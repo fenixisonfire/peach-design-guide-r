@@ -14,7 +14,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../src/Image';
 
-import DatavisOverview from './sections/DatavisOverview';
+import DataVisOverview from './sections/DataVisOverview';
 
 import DataVisBasic from './sections/DataVisBasic';
 import DataVisBasicLine from './sections/DataVisBasicLine';
@@ -42,7 +42,7 @@ import DataVisTooltipPie from './sections/DataVisTooltipPie';
 // order matters
 /* eslint-disable indent */
 const sections = {
-  overview: '#datavisoverview',
+  datavisoverview: '#datavisoverview',
   datavisbasic: '#datavisbasic',
     datavisbasicline: '#datavisbasicline',
     datavisbasiclinem: '#datavisbasiclinem',
@@ -168,7 +168,7 @@ const DatavisPage = React.createClass({
             <div className="col-md-9" role="main">
 
               {this.renderScrollSpy(sections.datavisoverview)}
-              <DatavisOverview />
+              <DataVisOverview />
 
 
               {this.renderScrollSpy(sections.datavisbasic)}

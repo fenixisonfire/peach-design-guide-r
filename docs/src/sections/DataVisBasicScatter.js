@@ -61,7 +61,12 @@ export default function DataVisBasicScatter() {
       {
         field: 'BMI',
         name: 'BMI',
-        color: '#0099ff'
+        color: '#ff7f0e'
+      },
+      {
+        field: 'age',
+        name: 'age',
+        color: '#4d79ff'
       }
     ],
     // your x accessor
@@ -72,7 +77,7 @@ export default function DataVisBasicScatter() {
     return (
         <div className="bs-docs-section">
             <h2 className="page-header">
-                <Anchor id="datavisbasicscatter.">Basic Scatter</Anchor>
+                <Anchor id="datavisbasicscatter">Basic Scatter</Anchor>
             </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet rutrum erat, sit amet venenatis orci sodales at. Aliquam eu erat eu diam pellentesque sollicitudin id eget est. Mauris nec pellentesque risus. Integer at interdum massa. Ut ac iaculis ante, sit amet finibus massa. Mauris a mi a metus volutpat molestie. In mauris odio, ullamcorper a vulputate nec, dapibus finibus nisl. Duis aliquet, velit eget laoreet tristique, enim ligula gravida ipsum, vel accumsan lectus purus id enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam at lectus at tellus eleifend efficitur ut vestibulum nunc. Nulla facilisis accumsan dapibus. Pellentesque efficitur vestibulum lectus, vel facilisis elit scelerisque sed. Curabitur lacus purus, pellentesque nec dui nec, feugiat scelerisque neque. Fusce sed augue non lectus varius semper vel eget ex.

@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var AreaStackTooltipChart = require('react-d3-tooltip').LineTooltip;
+var AreaStackTooltipChart = require('react-d3-tooltip').AreaStackTooltip;
 
 export default function DataVisTooltipAreaStack() {
 

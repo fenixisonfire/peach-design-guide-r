@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-export default function DatavisOverview() {
+export default function DataVisOverview() {
     return (
         <div className="bs-docs-section">
             <h2 className="page-header">

@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var LineChart = require('react-d3-basic').LineChart;
+var AreaChart = require('react-d3-basic').AreaChart;
 
 export default function DataVisBasicArea() {
 
@@ -61,7 +61,12 @@ export default function DataVisBasicArea() {
       {
         field: 'BMI',
         name: 'BMI',
-        color: '#0099ff'
+        color: '#ff7f0e'
+      },
+      {
+      field: 'age',
+      name: 'age',
+      color: '#4d79ff'
       }
     ],
     // your x accessor
@@ -81,7 +86,7 @@ export default function DataVisBasicArea() {
 
             </p>
 
-            <LineChart
+            <AreaChart
               showLegend= {true}
               showXGrid= {true}
               showYGrid= {true}
