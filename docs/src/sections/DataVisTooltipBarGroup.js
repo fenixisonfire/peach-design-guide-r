@@ -145,6 +145,8 @@ export default function DataVisTooltipBarGroup() {
               yTickFormat = {yTickFormat}
             />
 
+            <br></br>
+
             <code>Javascript</code>
             <pre>
               <code style={{color: '#1a53ff'}}>{`

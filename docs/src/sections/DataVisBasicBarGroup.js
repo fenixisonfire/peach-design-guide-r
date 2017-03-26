@@ -143,6 +143,8 @@ var width = 700,
               yLabel = {yLabel}
             />
 
+            <br></br>
+
             <code>Javascript</code>
             <pre>
             <code style={{color: '#1a53ff'}}>{`

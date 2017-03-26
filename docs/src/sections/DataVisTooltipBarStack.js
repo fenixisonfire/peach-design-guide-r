@@ -141,6 +141,8 @@ export default function DataVisTooltipBarStack() {
               yTickFormat= {yTickFormat}
             />
 
+            <br></br>
+
             <code>Javascript</code>
             <pre>
               <code style={{color: '#1a53ff'}}>{`

@@ -78,6 +78,8 @@ export default function DataVisBasicLine() {
                 The line chart is one of the most frequently used chart types, typically used to show trends over a period of time. If you need to chart changes over time, consider using a line chart.
             </p>
 
+            <br></br>
+
             <LineChart
               showLegend= {true}
               showXGrid= {true}

@@ -87,8 +87,6 @@ export default function DataVisBasicPie() {
             <p>
                 A pie chart represents the distribution or proportion of each data item over a total value (represented by the overall pie). A pie chart is most effective when plotting no more than three categories of data.
 
-
-
             </p>
 
             <PieChart
@@ -99,6 +97,8 @@ export default function DataVisBasicPie() {
               value = {value}
               name = {name}
             />
+
+            <br></br>
 
             <code>Javascript</code>
             <pre>

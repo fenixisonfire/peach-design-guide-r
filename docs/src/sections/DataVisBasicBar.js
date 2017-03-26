@@ -94,6 +94,8 @@ export default function DataVisBasicBar() {
                     yTicks= {yTicks}
             />
 
+            <br></br>
+
             <code>Javascript</code>
             <pre>
             <code style={{color: '#1a53ff'}}>{`

@@ -20,9 +20,7 @@ export default function DataVisTooltip() {
                 <br></br>
                 <br></br>
 
-               In this section, there are examples of interactive tooltip graphs built using the React D3 library. By hovering the cursor over a point in the graph, more detailed information comes into view. Again, there is a description of how each chart type should be used, as well as the accompanying code.
-
-
+               In this section, there are examples of interactive tooltip graphs built using D3. By hovering the cursor over a point in the graph, more detailed information comes into view. Again, there is a description of how each chart type should be used, as well as the accompanying code.
 
             </p>
         </div>

@@ -978,6 +978,8 @@ export default function DataVisTooltipScatter() {
               x={x}
             />
 
+            <br></br>
+
             <code>Javascript</code>
             <pre>
               <code style={{color: '#1a53ff'}}>{`
