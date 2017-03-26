@@ -20,7 +20,6 @@ import DataVisBasic from './sections/DataVisBasic';
 import DataVisBasicLine from './sections/DataVisBasicLine';
 import DataVisBasicLineM from './sections/DataVisBasicLineM';
 import DataVisBasicArea from './sections/DataVisBasicArea';
-import DataVisBasicAreaStack from './sections/DataVisBasicAreaStack';
 import DataVisBasicBar from './sections/DataVisBasicBar';
 import DataVisBasicBarGroup from './sections/DataVisBasicBarGroup';
 import DataVisBasicBarStack from './sections/DataVisBasicBarStack';
@@ -31,7 +30,6 @@ import DataVisBasicDonut from './sections/DataVisBasicDonut';
 import DataVisTooltip from './sections/DataVisTooltip';
 import DataVisTooltipLine from './sections/DataVisTooltipLine';
 import DataVisTooltipLineM from './sections/DataVisTooltipLineM';
-import DataVisTooltipAreaStack from './sections/DataVisTooltipAreaStack';
 import DataVisTooltipBar from './sections/DataVisTooltipBar';
 import DataVisTooltipBarGroup from './sections/DataVisTooltipBarGroup';
 import DataVisTooltipBarStack from './sections/DataVisTooltipBarStack';
@@ -47,7 +45,6 @@ const sections = {
     datavisbasicline: '#datavisbasicline',
     datavisbasiclinem: '#datavisbasiclinem',
     datavisbasicarea: '#datavisbasicarea',
-    datavisbasicareastack: '#datavisbasicareastack',
     datavisbasicbar: '#datavisbasicbar',
     datavisbasicbargroup: '#datavisbasicbargroup',
     datavisbasicbarstack: '#datavisbasicbarstack',
@@ -57,7 +54,6 @@ const sections = {
   datavistooltip: '#datavistooltip',
     datavistooltipline: '#datavistooltipline',
     datavistooltiplinem: '#datavistooltiplinem',
-    datavistooltipareastack: '#datavistooltipareastack',
     datavistooltipbar: '#datavistooltipbar',
     datavistooltipbargroup: '#datavistooltipbargroup',
     datavistooltipbarstack: '#datavistooltipbarstack',
@@ -183,9 +179,6 @@ const DatavisPage = React.createClass({
               {this.renderScrollSpy(sections.datavisbasicarea)}
               <DataVisBasicArea />
 
-              {this.renderScrollSpy(sections.datavisbasicareastack)}
-              <DataVisBasicAreaStack />
-
               {this.renderScrollSpy(sections.datavisbasicbar)}
               <DataVisBasicBar />
 
@@ -213,9 +206,6 @@ const DatavisPage = React.createClass({
 
               {this.renderScrollSpy(sections.datavistooltiplinem)}
               <DataVisTooltipLineM />
-
-              {this.renderScrollSpy(sections.datavistooltipareastack)}
-              <DataVisTooltipAreaStack />
 
               {this.renderScrollSpy(sections.datavistooltipbar)}
               <DataVisTooltipBar />
@@ -257,7 +247,6 @@ const DatavisPage = React.createClass({
                       <NavItem href={sections.datavisbasicline}>Basic Line</NavItem>
                       <NavItem href={sections.datavisbasiclinem}>Basic Line Multiple</NavItem>
                       <NavItem href={sections.datavisbasicarea}>Basic Area</NavItem>
-                      <NavItem href={sections.datavisbasicareastack}>Basic Area Stack</NavItem>
                       <NavItem href={sections.datavisbasicbar}>Basic Bar</NavItem>
                       <NavItem href={sections.datavisbasicbargroup}>Basic Bar Group</NavItem>
                       <NavItem href={sections.datavisbasicbarstack}>Basic Bar Stack</NavItem>
@@ -269,7 +258,6 @@ const DatavisPage = React.createClass({
                     <SubNav href={sections.datavistooltip} text="Tooltip Graphs">
                       <NavItem href={sections.datavistooltipline}>Tooltip Line</NavItem>
                       <NavItem href={sections.datavistooltiplinem}>Tooltip Line Multiple</NavItem>
-                      <NavItem href={sections.datavistooltipareastack}>Tooltip Area Stack</NavItem>
                       <NavItem href={sections.datavistooltipbar}>Tooltip Bar</NavItem>
                       <NavItem href={sections.datavistooltipbargroup}>Tooltip Bar Group</NavItem>
                       <NavItem href={sections.datavistooltipbarstack}>Tooltip Bar Stack</NavItem>
