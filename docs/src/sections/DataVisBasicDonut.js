@@ -8,66 +8,77 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var LineChart = require('react-d3-basic').LineChart;
+var PieChart = require('react-d3-basic').PieChart;
 
 export default function DataVisBasicDonut() {
 
-  var chartData = [{
-    name: "Lavon Hilll I",
-    BMI: 20.57,
-    age: 12,
-    birthday: "1994-10-26T00:00:00.000Z",
-    city: "Annatown",
-    married: true,
-    index: 1
-  },
-  {
-    name: "Clovis Pagac",
-    BMI: 24.28,
-    age: 26,
-    birthday: "1995-11-10T00:00:00.000Z",
-    city: "South Eldredtown",
-    married: false,
-    index: 3
-  },
-  {
-    name: "Gaylord Paucek",
-    BMI: 24.41,
-    age: 30,
-    birthday: "1975-06-12T00:00:00.000Z",
-    city: "Koeppchester",
-    married: true,
-    index: 5
-  },
-  {
-    name: "Ashlynn Kuhn MD",
-    BMI: 23.77,
-    age: 32,
-    birthday: "1985-08-09T00:00:00.000Z",
-    city: "West Josiemouth",
-    married: false,
-    index: 6
-  }];
+  var chartData = [
+   {
+     "age": "<5",
+     "population": "2704659"
+   },
+   {
+     "age": "5-13",
+     "population": "4499890"
+   },
+   {
+     "age": "14-17",
+     "population": "2159981"
+   },
+   {
+     "age": "18-24",
+     "population": "3853788"
+   },
+   {
+     "age": "25-44",
+     "population": "14106543"
+   },
+   {
+     "age": "45-64",
+     "population": "8819342"
+   },
+   {
+     "age": "≥65",
+     "population": "612463"
+   }
+  ]
 
   var width = 700,
-    height = 300,
-    margins = {left: 100, right: 100, top: 50, bottom: 50},
-    title = "User sample",
-    // chart series,
-    // field: is what field your data want to be selected
-    // name: the name of the field that display in legend
-    // color: what color is the line
-    chartSeries = [
-      {
-        field: 'BMI',
-        name: 'BMI',
-        color: '#0099ff'
-      }
-    ],
-    // your x accessor
-    x = function(d) {
-      return d.index;
+  height = 400,
+  value = function(d) {
+    return +d.population;
+  },
+  name = function(d) {
+    return d.age;
+  },
+  chartSeries = [
+    {
+      "field": "<5",
+      "name": "less than 5"
+    },
+    {
+      "field": "5-13",
+      "name": "5 to 13"
+    },
+    {
+      "field": "14-17",
+      "name": "14 to 17"
+    },
+    {
+      "field": "18-24",
+      "name": "18 to 24"
+    },
+    {
+      "field": "25-44",
+      "name": "25 to 44"
+    },
+    {
+      "field": "45-64",
+      "name": "45 to 64"
     }
+  ],
+  innerRadius = 80;
+
 
     return (
         <div className="bs-docs-section">
@@ -81,17 +92,14 @@ export default function DataVisBasicDonut() {
 
             </p>
 
-            <LineChart
-              showLegend= {true}
-              showXGrid= {true}
-              showYGrid= {true}
-              margins= {margins}
-              title={title}
-              data={chartData}
-              width={width}
-              height={height}
-              chartSeries={chartSeries}
-              x={x}
+            <PieChart
+              data= {chartData}
+              width= {width}
+              height= {height}
+              chartSeries= {chartSeries}
+              value = {value}
+              name = {name}
+              innerRadius = {innerRadius}
             />
 
         </div>

@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var AreaStackChart = require('react-d3-basic').AreaStackChart;
+var LineChart = require('react-d3-basic').LineChart;
 
 export default function DataVisBasicAreaStack() {
 
@@ -86,7 +86,7 @@ export default function DataVisBasicAreaStack() {
 
             </p>
 
-            <AreaStackChart
+            <LineChart
               showLegend= {true}
               showXGrid= {true}
               showYGrid= {true}

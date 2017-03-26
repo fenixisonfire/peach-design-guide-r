@@ -115,6 +115,7 @@
     "dsv": "0.0.5",
     "invariant": "^2.2.1",
     "keycode": "^2.1.2",
+    "react-d3-basic": "^1.6.11",
     "react-d3-brush": "^1.1.0",
     "react-d3-tooltip": "^1.4.14",
     "react-d3-zoom": "^1.1.2",

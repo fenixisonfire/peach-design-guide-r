@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var LineChart = require('react-d3-basic').LineChart;
+var BarChart = require('react-d3-basic').BarChart;
 
 export default function DataVisBasicBar() {
 
@@ -67,7 +67,9 @@ export default function DataVisBasicBar() {
     // your x accessor
     x = function(d) {
       return d.index;
-    }
+    },
+    xScale = 'ordinal',
+        yTicks = [10, "%"];
 
     return (
         <div className="bs-docs-section">
@@ -81,17 +83,15 @@ export default function DataVisBasicBar() {
 
             </p>
 
-            <LineChart
-              showLegend= {true}
-              showXGrid= {true}
-              showYGrid= {true}
-              margins= {margins}
-              title={title}
-              data={chartData}
-              width={width}
-              height={height}
-              chartSeries={chartSeries}
-              x={x}
+            <BarChart
+                    title= {title}
+                    data= {chartData}
+                    width= {width}
+                    height= {height}
+                    chartSeries = {chartSeries}
+                    x= {x}
+                    xScale= {xScale}
+                    yTicks= {yTicks}
             />
 
         </div>

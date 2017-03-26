@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var AreaStackTooltipChart = require('react-d3-tooltip').AreaStackTooltip;
+var LineTooltipChart = require('react-d3-tooltip').LineTooltip;
 
 export default function DataVisTooltipAreaStack() {
 
@@ -969,7 +969,7 @@ export default function DataVisTooltipAreaStack() {
 
             </p>
 
-            <AreaStackTooltipChart
+            <LineTooltipChart
               showLegend= {false}
               showXGrid= {true}
               showYGrid= {true}

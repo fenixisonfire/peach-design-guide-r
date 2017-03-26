@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var LineTooltip = require('react-d3-tooltip').LineTooltip;
+var ScatterTooltip = require('react-d3-tooltip').ScatterTooltip;
 
 export default function DataVisTooltipScatter() {
 
@@ -965,7 +965,7 @@ export default function DataVisTooltipScatter() {
 
             </p>
 
-            <LineTooltip
+            <ScatterTooltip
               showLegend= {false}
               showXGrid= {true}
               showYGrid= {true}
