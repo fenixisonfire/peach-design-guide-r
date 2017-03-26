@@ -94,21 +94,45 @@ export default function DataVisBasicLine() {
               x={x}
             />
 
-        <code>{
-            "LineChart"
-        }</code>
+            <code>Javascript</code>
+            <pre>
+            <code style={{color: '#1a53ff'}}>{`
+              var width = 500,
+              height = 300,
+              margins = {left: 100, right: 100, top: 50, bottom: 50},
+              // chart series,
+              // field: is what field your data want to be selected
+              // name: the name of the field that display in legend
+              // color: what color is the line
+              chartSeries = [
+                {
+                  field: 'total',
+                  name: 'Total',
+                  color: '#ff7f0e'
+                }
+              ],
+              // your x accessor
+              x = function(d) {
+                return parseDate(d.month);
+              },
+              xScale = 'time';
+            `}</code>
+            </pre>
 
-        <pre>
-          <code>
-            width
-            <br></br>
-            height
-            <br></br>
-            margins
-            <br></br>
-            xScale
-          </code>
-        </pre>
+            <code>HTML</code>
+            <pre>
+              <code style={{color: '#ff6600'}}>{`
+                <LineChart
+                  margins= {margins}
+                  data={chartData}
+                  width={width}
+                  height={height}
+                  chartSeries={chartSeries}
+                  x={x}
+                  xScale={xScale}
+                />
+              `}</code>
+            </pre>
 
         </div>
     );

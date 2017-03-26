@@ -99,6 +99,47 @@ export default function DataVisBasicArea() {
               x={x}
             />
 
+            <code>Javascript</code>
+            <pre>
+              <code style={{color: '#1a53ff'}}>{`
+                var parseDate = d3.time.format("%YM%m").parse;
+
+                var width = 700,
+                 height = 300,
+                 chartSeries = [
+                   {
+                     field: 'incineration',
+                     name: 'Incineration',
+                     color: 'blue',
+                     style: {
+                       opacity: .2
+                     }
+                   }
+                 ],
+                 // your x accessor
+                 x = function(d) {
+                   return parseDate(d.month);
+                 },
+                 xScale = 'time',
+                 yTickOrient = 'right';
+              `}</code>
+            </pre>
+
+            <code>HTML</code>
+            <pre>
+              <code style={{color: '#ff6600'}}>{`
+                <AreaChart
+                  data= {chartData}
+                  width= {width}
+                  height= {height}
+                  chartSeries= {chartSeries}
+                  x= {x}
+                  xScale= {xScale}
+                  yTickOrient= {yTickOrient}
+                />
+              `}</code>
+            </pre>
+
         </div>
     );
 }

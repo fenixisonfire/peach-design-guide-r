@@ -94,6 +94,48 @@ export default function DataVisBasicBar() {
                     yTicks= {yTicks}
             />
 
+            <code>Javascript</code>
+            <pre>
+            <code style={{color: '#1a53ff'}}>{`
+              var generalChartData = require('dsv?delimiter=\t!../data/letter.tsv')
+
+              var width = 700,
+                height = 400,
+                title = "Bar Chart",
+                chartSeries = [
+                  {
+                    field: 'frequency',
+                    name: 'Frequency'
+                  }
+                ],
+                x = function(d) {
+                  return d.letter;
+                },
+                xScale = 'ordinal',
+                xLabel = "Letter",
+                yLabel = "Frequency",
+                yTicks = [10, "%"];
+            `}</code>
+            </pre>
+
+            <code>HTML</code>
+            <pre>
+              <code style={{color: '#ff6600'}}>{`
+                <BarChart
+                   title= {title}
+                   data= {generalChartData}
+                   width= {width}
+                   height= {height}
+                   chartSeries = {chartSeries}
+                   x= {x}
+                   xLabel= {xLabel}
+                   xScale= {xScale}
+                   yTicks= {yTicks}
+                   yLabel = {yLabel}
+                 />
+              `}</code>
+            </pre>
+
         </div>
     );
 }

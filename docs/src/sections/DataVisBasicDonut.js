@@ -102,6 +102,64 @@ export default function DataVisBasicDonut() {
               innerRadius = {innerRadius}
             />
 
+            <code>Javascript</code>
+            <pre>
+            <code style={{color: '#1a53ff'}}>{`
+              var generalChartData = require('dsv?delimiter=,!../data/pie_test.csv')
+
+              var width = 700,
+              height = 400,
+              value = function(d) {
+                return +d.population;
+              },
+              name = function(d) {
+                return d.age;
+              },
+              chartSeries = [
+                {
+                  "field": "<5",
+                  "name": "less than 5"
+                },
+                {
+                  "field": "5-13",
+                  "name": "5 to 13"
+                },
+                {
+                  "field": "14-17",
+                  "name": "14 to 17"
+                },
+                {
+                  "field": "18-24",
+                  "name": "18 to 24"
+                },
+                {
+                  "field": "25-44",
+                  "name": "25 to 44"
+                },
+                {
+                  "field": "45-64",
+                  "name": "45 to 64"
+                }
+              ],
+              innerRadius = 10;
+            `}</code>
+            </pre>
+
+            <code>HTML</code>
+            <pre>
+              <code style={{color: '#ff6600'}}>{`
+                <PieChart
+                  data= {generalChartData}
+                  width= {width}
+                  height= {height}
+                  chartSeries= {chartSeries}
+                  value = {value}
+                  name = {name}
+                  innerRadius = {innerRadius}
+                />
+              `}</code>
+            </pre>
+
         </div>
     );
 }
