@@ -8,66 +8,115 @@ import ReactDOM from 'react-dom'
 import ReactSVG from 'react-svg'
 import Image from '../../../src/Image';
 
-var LineChart = require('react-d3-basic').LineChart;
+var BarGroupChart = require('react-d3-basic').BarGroupChart;
+var d3 = require("d3");
 
 export default function DataVisBasicBarGroup() {
 
-  var chartData = [{
-    name: "Lavon Hilll I",
-    BMI: 20.57,
-    age: 12,
-    birthday: "1994-10-26T00:00:00.000Z",
-    city: "Annatown",
-    married: true,
-    index: 1
-  },
-  {
-    name: "Clovis Pagac",
-    BMI: 24.28,
-    age: 26,
-    birthday: "1995-11-10T00:00:00.000Z",
-    city: "South Eldredtown",
-    married: false,
-    index: 3
-  },
-  {
-    name: "Gaylord Paucek",
-    BMI: 24.41,
-    age: 30,
-    birthday: "1975-06-12T00:00:00.000Z",
-    city: "Koeppchester",
-    married: true,
-    index: 5
-  },
-  {
-    name: "Ashlynn Kuhn MD",
-    BMI: 23.77,
-    age: 32,
-    birthday: "1985-08-09T00:00:00.000Z",
-    city: "West Josiemouth",
-    married: false,
-    index: 6
-  }];
+  var chartData = [
+   {
+     "State": "CA",
+     "Under 5 Years": 2704659,
+     "5 to 13 Years": 4499890,
+     "14 to 17 Years": 2159981,
+     "18 to 24 Years": 3853788,
+     "25 to 44 Years": 10604510,
+     "45 to 64 Years": 8819342,
+     "65 Years and Over": 4114496
+   },
+   {
+     "State": "TX",
+     "Under 5 Years": 2027307,
+     "5 to 13 Years": 3277946,
+     "14 to 17 Years": 1420518,
+     "18 to 24 Years": 2454721,
+     "25 to 44 Years": 7017731,
+     "45 to 64 Years": 5656528,
+     "65 Years and Over": 2472223
+   },
+   {
+     "State": "NY",
+     "Under 5 Years": 1208495,
+     "5 to 13 Years": 2141490,
+     "14 to 17 Years": 1058031,
+     "18 to 24 Years": 1999120,
+     "25 to 44 Years": 5355235,
+     "45 to 64 Years": 5120254,
+     "65 Years and Over": 2607672
+   },
+   {
+     "State": "FL",
+     "Under 5 Years": 1140516,
+     "5 to 13 Years": 1938695,
+     "14 to 17 Years": 925060,
+     "18 to 24 Years": 1607297,
+     "25 to 44 Years": 4782119,
+     "45 to 64 Years": 4746856,
+     "65 Years and Over": 3187797
+   },
+   {
+     "State": "IL",
+     "Under 5 Years": 894368,
+     "5 to 13 Years": 1558919,
+     "14 to 17 Years": 725973,
+     "18 to 24 Years": 1311479,
+     "25 to 44 Years": 3596343,
+     "45 to 64 Years": 3239173,
+     "65 Years and Over": 1575308
+   },
+   {
+     "State": "PA",
+     "Under 5 Years": 737462,
+     "5 to 13 Years": 1345341,
+     "14 to 17 Years": 679201,
+     "18 to 24 Years": 1203944,
+     "25 to 44 Years": 3157759,
+     "45 to 64 Years": 3414001,
+     "65 Years and Over": 1910571
+   }
+  ]
 
-  var width = 700,
-    height = 300,
-    margins = {left: 100, right: 100, top: 50, bottom: 50},
-    title = "User sample",
-    // chart series,
-    // field: is what field your data want to be selected
-    // name: the name of the field that display in legend
-    // color: what color is the line
+var width = 700,
+    height = 400,
     chartSeries = [
       {
-        field: 'BMI',
-        name: 'BMI',
-        color: '#0099ff'
-      }
+        field: 'Under 5 Years',
+        name: 'Under 5 Years'
+      },
+      {
+        field: '5 to 13 Years',
+        name: '5 to 13 Years'
+      },
+      {
+        field: '14 to 17 Years',
+        name: '14 to 17 Years'
+      },
+      {
+        field: '18 to 24 Years',
+        name: '18 to 24 Years'
+      },
+      {
+        field: '25 to 44 Years',
+        name: '25 to 44 Years'
+      },
+      {
+        field: '45 to 64 Years',
+        name: '45 to 64 Years'
+      },
+      {
+        field: '65 Years and Over',
+        name: '65 Years and Over'
+      },
+
     ],
-    // your x accessor
     x = function(d) {
-      return d.index;
-    }
+      return d.State;
+    },
+    xScale = 'ordinal',
+    xLabel = "Age",
+    yLabel = "Population",
+    yLabelPosition = "right",
+    yTickFormat = d3.format(".2s");
 
     return (
         <div className="bs-docs-section">
@@ -81,17 +130,17 @@ export default function DataVisBasicBarGroup() {
 
             </p>
 
-            <LineChart
-              showLegend= {true}
-              showXGrid= {true}
-              showYGrid= {true}
-              margins= {margins}
-              title={title}
-              data={chartData}
-              width={width}
-              height={height}
-              chartSeries={chartSeries}
-              x={x}
+            <BarGroupChart
+              data= {chartData}
+              width= {width}
+              height= {height}
+              chartSeries = {chartSeries}
+              x= {x}
+              xScale= {xScale}
+              xLabel = {xLabel}
+              yTickFormat= {yTickFormat}
+              yLabelPosition= {yLabelPosition}
+              yLabel = {yLabel}
             />
 
         </div>
