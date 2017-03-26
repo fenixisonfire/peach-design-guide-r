@@ -94,6 +94,22 @@ export default function DataVisBasicLine() {
               x={x}
             />
 
+        <code>{
+            "LineChart"
+        }</code>
+
+        <pre>
+          <code>
+            width
+            <br></br>
+            height
+            <br></br>
+            margins
+            <br></br>
+            xScale
+          </code>
+        </pre>
+
         </div>
     );
 }

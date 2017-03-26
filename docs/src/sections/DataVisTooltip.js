@@ -15,7 +15,7 @@ export default function DataVisTooltip() {
                 <Anchor id="datavistooltip">Tooltip Graphs</Anchor>
             </h2>
             <p>
-                This section outlines the guidelines for zoom graphs in the Peach Project.
+                This section outlines the guidelines for <b>tooltip</b> graphs in the Peach Project.
 
                 <br></br>
                 <br></br>
