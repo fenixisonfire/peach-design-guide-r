@@ -25,7 +25,7 @@ export default function DesignVoiceAndToneSection() {
             Use the Voice & Tone Guidelines to get a quick introduction to our unique voice and tone, and to understand how to apply it to your work. The doc provides some quick writing guidelines, and includes great examples of the voice and tone from the app and the doc.
         </p>
         <p>
-            MEANT TO HAVE LINK TO FILE
+            <a href="https://www.lightningdesignsystem.com/assets/downloads/salesforce-voice-and-tone.pdf?">Salesforce Style Guide for Documentation and User Interface Text</a>
         </p>
         <p>
             For more in-depth information about Salesforce style, including details around usage, terminology, and punctuation, use the <a href="https://developer.salesforce.com/docs/atlas.en-us.salesforce_pubs_style_guide.meta/salesforce_pubs_style_guide/">Salesforce Style Guide for Documentation and User Interface Text</a>. This is especially helpful if you’re writing customized help or training content.
