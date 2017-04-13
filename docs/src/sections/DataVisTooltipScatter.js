@@ -945,6 +945,9 @@ export default function DataVisTooltipScatter() {
       {
         field: 'BMI',
         color: '#ff7f0e'
+      },
+      {
+        field: 'age'
       }
     ],
     // your x accessor
